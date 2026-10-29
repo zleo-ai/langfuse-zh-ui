@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "Langfuse 中文界面",
+  "version": "0.1.0",
+  "description": "离线翻译 Langfuse 常用界面。点击扩展按钮切换中文与英文。",
+  "permissions": ["activeTab", "scripting"],
+  "action": { "default_popup": "popup.html", "default_title": "Langfuse 中文界面" }
+}
