@@ -1,0 +1,15 @@
+"use strict";
+const fs = require("node:fs");
+const path = require("node:path");
+const { execFileSync } = require("node:child_process");
+const root = path.resolve(__dirname, "..");
+const files = ["manifest.json", "popup.html", "popup.css", "popup.js", "dictionary.js", "translate.js"];
+const out = path.join(root, "dist", "langfuse-zh-ui");
+fs.mkdirSync(out, { recursive: true });
+for (const file of files) fs.copyFileSync(path.join(root, "extension", file), path.join(out, file));
+fs.copyFileSync(path.join(root, "LICENSE"), path.join(out, "LICENSE"));
+fs.copyFileSync(path.join(root, "README.md"), path.join(out, "README.md"));
+const archive = path.join(root, "dist", "langfuse-zh-ui-0.1.0.zip");
+if (fs.existsSync(archive)) fs.unlinkSync(archive);
+execFileSync("zip", ["-q", archive, ...files, "LICENSE", "README.md"], { cwd: out });
+console.log(archive);

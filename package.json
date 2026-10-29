@@ -1,0 +1,14 @@
+{
+  "name": "langfuse-zh-ui",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline Simplified Chinese UI for Langfuse",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "build": "node scripts/build.cjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  }
+}

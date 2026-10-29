@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; font: 14px/1.5 system-ui, sans-serif; }
+body { width: 280px; margin: 20px; }
+h1 { font-size: 18px; margin: 0 0 10px; }
+p { margin: 8px 0 14px; }
+button { display: block; width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #71717a; border-radius: 7px; cursor: pointer; font: inherit; }
+button:focus-visible { outline: 2px solid #6366f1; outline-offset: 2px; }
+#translate { background: #4338ca; color: white; border-color: #4338ca; }
+.hint { font-size: 12px; opacity: .75; }
+#status { min-height: 21px; }
