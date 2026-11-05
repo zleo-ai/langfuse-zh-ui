@@ -19,12 +19,13 @@ async function runHoverAcceptance({dictionary,translator}) {
   langfuseZhUI.setEnabled(false);check('全部悬停词条完整恢复',host.innerHTML,original);
   host.innerHTML=`<table><thead><tr><th><button aria-controls="status-card" aria-label="More information"></button><button class="peer" aria-label="Select all" id="select-all"></button></th></tr></thead></table>
     <div role="dialog" data-floating-ui-focusable id="status-card"><div class="font-mono" id="status">${status}</div><a href="https://langfuse.com/docs/observability/features/log-levels">Read docs</a></div>
-    <button id="columns" title="Show/hide columns">Columns</button><button id="reset" title="Reset playground state">Reset playground</button>
+    <button id="columns" title="Show/hide columns">Columns</button><button id="reset" title="Reset playground state">Reset playground</button><button id="native-refresh" title="Refresh" aria-label="Refresh">Refresh</button>
     <table><tr><td><div data-facet-column="name"><fieldset><input id="filter" placeholder="Filter values" value="Save"></fieldset></div></td></tr></table>`;
   langfuseZhUI.setEnabled(true);
   check('截图状态说明浮层',text('status'),langfuseZhDictionary[status]);
   check('原生表头列控制悬停',document.getElementById('columns').getAttribute('title'),'显示或隐藏列');
   check('原生重置按钮悬停',document.getElementById('reset').getAttribute('title'),langfuseZhDictionary['Reset playground state']);
+  check('名称与提示相同的原生操作按钮',document.getElementById('native-refresh').outerHTML,'<button id="native-refresh" title="刷新" aria-label="刷新">刷新</button>');
   check('全选按钮无障碍说明',document.getElementById('select-all').getAttribute('aria-label'),'全选');
   check('筛选搜索提示',document.getElementById('filter').getAttribute('placeholder'),'可选筛选值');
   check('筛选搜索输入值保护',document.getElementById('filter').value,'Save');

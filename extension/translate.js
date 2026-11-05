@@ -230,9 +230,10 @@
     const uploadChrome = ['Upload files','Drag and drop or click to upload'].includes(key) && element.closest('button')?.querySelector('input[type="file"]');
     const iconTooltip = attribute==='title' && !element.textContent.trim() && element.querySelector('svg') && Object.hasOwn(dictionary,key);
     const reviewedTooltip = attribute==='title' && element.matches('button') && hoverKeys.has(key) && keyOf(element.textContent)!==key;
+    const semanticAction=element.matches('button[aria-label]') && sourceAttribute(element,'aria-label')===key && new Set(['Copy','Refresh','Save','Cancel','Delete','Edit','Create','Run','Export','Next','Previous']).has(key);
     const menuAction = ['Make Public','Make Private','Copy session ID','Copy trace ID','Copy observation ID','Delete session','Delete trace'].includes(key) && element.closest('[role="menuitem"] button');
     if (titled && keyOf(sourceAttribute(titled,'title') || '') === key &&
-        !searchHint && !metric && !sessionTool && !sessionMessage && !errorBadge && !uiBadge && !evaluatorTemplate && !choice && !uploadChrome && !iconTooltip && !reviewedTooltip && !menuAction &&
+        !searchHint && !metric && !sessionTool && !sessionMessage && !errorBadge && !uiBadge && !evaluatorTemplate && !choice && !uploadChrome && !iconTooltip && !reviewedTooltip && !semanticAction && !menuAction &&
         !(key==='Langfuse Home' && element.closest('button[role="combobox"]') && /\/project\/[^/]+\/?$/.test(location.pathname)) &&
         !(key==='My Views' && element.closest('button[title]') && !element.closest('button.peer')) &&
         !element.closest('th,[role="columnheader"],[role="tab"],[data-sidebar],[role="menuitemcheckbox"]') && !facet) return null;
