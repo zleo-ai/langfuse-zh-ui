@@ -2,7 +2,7 @@
 
 给官方 Langfuse 加一层离线简体中文界面。无需重建 Docker 镜像，也无需迁移数据库。
 
-这是独立社区浏览器扩展，与 Langfuse 官方无隶属关系。首版面向 **Langfuse 4.70.0** 的常用界面，**不是全站完整汉化**。
+这是独立社区浏览器扩展，与 Langfuse 官方无隶属关系。0.4.0 面向 **Langfuse 4.75.0**，覆盖本次源码审计中已识别的应译界面文案，保留品牌、代码和原始数据；不承诺其他版本或未知动态内容零英文。
 
 ![Langfuse 4.70.0 登录页中文实测](docs/login-zh.png)
 
@@ -49,9 +49,11 @@ npm run build
 
 也可以用已有 Chrome 运行测试：`CHROME_PATH=/path/to/chrome npm test`。
 
-输出目录为 `dist/langfuse-zh-ui/`，安装包为 `dist/langfuse-zh-ui-0.1.0.zip`。包中只有扩展文件、README 和许可证。
+输出目录为 `dist/langfuse-zh-ui/`，安装包为 `dist/langfuse-zh-ui-0.4.0.zip`。包中只有扩展文件、README 和许可证。
 
-补译请编辑 `extension/dictionary.js`。只添加真实界面文案，避免添加用户提示词或回复样例。修改元素选择范围时，应补充「同样的英文出现在用户数据中仍保持原文」的测试。
+补译请编辑 `catalog/*.zh-CN.json`，再运行 `npm run catalog:build` 重建词典。只添加真实界面文案，避免添加用户提示词或回复样例。修改元素选择范围时，应补充「同样的英文出现在用户数据中仍保持原文」的测试。
+
+0.4.0 补充帮助侧栏、悬停、复杂筛选、设置子页、校验、通知和动态提示。扫描范围及验证边界见 [覆盖审计](docs/COVERAGE.md)，补译流程见 [贡献说明](CONTRIBUTING.md)，变更见 [更新记录](CHANGELOG.md)。Langfuse 来源短语的许可证见 [LANGFUSE-LICENSE](extension/LANGFUSE-LICENSE)，本项目原 MIT 版权声明保持。
 
 ## 社区方案调研
 
