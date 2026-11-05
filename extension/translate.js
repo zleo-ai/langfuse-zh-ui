@@ -68,7 +68,7 @@
   const homeLabels = new Set(['Total traces tracked','Total cost','Total scores tracked','No data','Select a tab','Observations by Level','Observations tracked','Model Usage','Cost by model','Cost by type','Usage by model','Usage by type','Cost','Token cost','Count of Traces','Sum','Latencies (seconds) per LLM generation','50th Percentile','75th Percentile','90th Percentile','95th Percentile','99th Percentile']);
   const sessionControls = new Set(['JSON-only message detected','Open observation','Open trace','Show more','Show less']);
   const keyOf = text => text.trim().replace(/\s+/g,' ');
-  const sourceAttribute = (element, key) => originals.get(element)?.get(key)?.source ?? element.getAttribute(key);
+  const sourceAttribute = (element, key) => {const current=element.getAttribute(key),tracked=originals.get(element)?.get(key);return tracked && current===tracked.translated ? tracked.source : current;};
   const choiceGroups = [
     [['Data type','Data Type'],['NUMERIC','CATEGORICAL','BOOLEAN','TEXT','Numeric','Categorical','Boolean','Text']],
     [['Data source','Data Source'],['Observations','Scores Numeric','Scores Categorical','Scores Boolean']],

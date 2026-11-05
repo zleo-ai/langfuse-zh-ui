@@ -27,6 +27,7 @@ async function runHoverAcceptance({dictionary,translator}) {
   check('原生重置按钮悬停',document.getElementById('reset').getAttribute('title'),langfuseZhDictionary['Reset playground state']);
   check('名称与提示相同的原生操作按钮',document.getElementById('native-refresh').outerHTML,'<button id="native-refresh" title="刷新" aria-label="刷新">刷新</button>');
   check('全选按钮无障碍说明',document.getElementById('select-all').getAttribute('aria-label'),'全选');
+  const refresh=document.getElementById('native-refresh');refresh.setAttribute('title','Copy');refresh.setAttribute('aria-label','Copy');await tick();check('应用更新后的双属性提示', [refresh.getAttribute('title'),refresh.getAttribute('aria-label')],['复制','复制']);
   check('筛选搜索提示',document.getElementById('filter').getAttribute('placeholder'),'可选筛选值');
   check('筛选搜索输入值保护',document.getElementById('filter').value,'Save');
   langfuseZhUI.setEnabled(false);
