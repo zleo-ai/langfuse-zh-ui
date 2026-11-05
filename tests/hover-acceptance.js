@@ -52,5 +52,6 @@ async function runHoverAcceptance({dictionary,translator}) {
     'Attribute data in Langfuse to a user by adding a userId to your traces. See',
   ];
   for(const key of fragments){host.innerHTML='<button aria-controls="fragment" aria-label="More information"></button><div role="dialog" data-floating-ui-focusable id="fragment"><span id="prefix"></span> <a href="https://langfuse.com/docs">docs</a> <span>to learn more.</span></div>';document.getElementById('prefix').textContent=key;const before=host.innerHTML;langfuseZhUI.setEnabled(true);check('含链接的说明正文 '+key.slice(0,20),text('prefix'),langfuseZhDictionary[key]);langfuseZhUI.setEnabled(false);check('含链接的说明恢复 '+key.slice(0,20),host.innerHTML,before);}
+  host.innerHTML='<div role="tooltip" id="no-id-test"></div>';const anonymous=document.getElementById('no-id-test');anonymous.removeAttribute('id');anonymous.textContent=status;langfuseZhUI.setEnabled(true);check('无ID的悬停浮层不报错且可翻译',anonymous.textContent,langfuseZhDictionary[status]);langfuseZhUI.setEnabled(false);
   return {passed:checks.filter(c=>c.pass).length,total:checks.length,hoverKeys:keys.length,checks};
 }

@@ -112,7 +112,7 @@
     const card=element.closest('[role="dialog"][data-floating-ui-focusable]');
     const root=tooltip || (card?.querySelector('a[href^="https://langfuse.com/docs"]') ? card : null);
     if(!root)return undefined;
-    const trigger=root.id && [...document.querySelectorAll('[aria-describedby],[aria-controls]')].find(e=>['aria-describedby','aria-controls'].some(a=>(e.getAttribute(a)||'').split(/\s+/).includes(root.id)));
+    const trigger=root.id ? [...document.querySelectorAll('[aria-describedby],[aria-controls]')].find(e=>['aria-describedby','aria-controls'].some(a=>(e.getAttribute(a)||'').split(/\s+/).includes(root.id))) : null;
     if(trigger?.closest(hard))return 'data';
     const dataTrigger=trigger?.closest(cells+',[role="option"],[data-facet-column] fieldset,[data-session-message-bubble],[aria-label="breadcrumb"],[aria-label="Breadcrumb"],[aria-label="导航路径"]');
     if(dataTrigger) {
