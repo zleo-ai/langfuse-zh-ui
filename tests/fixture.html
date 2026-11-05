@@ -1,0 +1,36 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Tracing | Langfuse</title></head><body>
+<nav><a id="nav" href="/project/fixture/traces">Tracing</a><a id="skills" href="/project/fixture/skills">Skills</a></nav>
+<nav aria-label="breadcrumb"><button data-protected id="org">Settings</button></nav>
+<button data-sidebar="menu-button" aria-haspopup="menu" data-protected>Input</button>
+<h1 id="heading">Tracing</h1><button id="quality">Quality</button><button id="save">  Save
+</button><input id="search" placeholder="Search filters" value="Input"><input id="secret" type="password" value="Save">
+<textarea id="message" placeholder="Enter a user message here.">Output</textarea>
+<a href="/project/custom" data-protected>Settings</a><a href="/project/custom" data-protected>Home</a>
+<div role="option" data-protected>Input</div><div role="menuitem" data-protected><span title="Settings">Settings</span></div>
+<button data-protected><span title="User message">User message</span></button>
+<div data-testid="search-bar-surface"><div id="hint" class="font-mono" title="Search — e.g. level:ERROR, -env:dev, latency:>2, scores.accuracy:>0.8">Search — e.g. level:ERROR, -env:dev, latency:>2, scores.accuracy:>0.8</div><div contenteditable="true" data-protected>Input Save</div></div>
+<table><tr><td>
+ <div data-facet-column="isRootObservation"><h3><button id="root-label"><span title="Is Root Observation">Is Root Observation</span></button></h3><div role="region"><fieldset><span id="root-true" title="True">True</span><span id="root-false">False</span></fieldset></div></div>
+ <div data-facet-column="type"><h3><button>Type</button></h3><div role="region"><fieldset><span id="type">GENERATION</span><span>TOOL</span></fieldset></div></div>
+ <div data-facet-column="level"><h3><button>Level</button></h3><div role="region"><fieldset><span id="level">ERROR</span></fieldset></div></div>
+ <div data-facet-column="name"><h3><button>Name</button></h3><div role="region"><fieldset><span data-protected title="Input">Input</span><span data-protected>Error</span><span data-protected>GENERATION</span><span id="only">Only</span><button role="tab">Select</button></fieldset></div></div>
+</td></tr></table>
+<table><thead><tr><th id="table-head">Input</th></tr></thead><tbody data-protected><tr><td><button title="Output">Output</button></td><td>Save</td><td>{"Input":"Output"}</td></tr></tbody></table>
+<div class="@container/pagination"><p id="rows">Rows per page</p><span id="page">Page 2 of 10</span><span id="total">Total 123</span></div>
+<button class="peer"><span data-protected title="Input">Input</span><span class="font-mono" title="Total tokens" id="tokens">3,338 tokens</span><span id="error">Error</span></button>
+<section aria-label="Session turns"><button id="tool-label" aria-label="tool: request_competition">Tool: request_competition</button><button id="user-message" aria-label="User message">User message</button></section>
+<div data-session-item-id="trace:0"><h3 id="thread">Thread 1</h3></div>
+<article data-session-message-bubble><button id="json" class="font-mono">JSON-only message detected</button><div data-protected class="whitespace-pre-wrap"><button>Save</button><h3>Input</h3>Output</div></article>
+<button id="nested" aria-label="6 nested threads hidden"></button><button id="collapse" aria-label="Collapse trace Output"></button>
+<div class="prose" data-protected><h2>Settings</h2><p>Save</p><a href="/project/fixture/traces">Tracing</a></div>
+<div class="markdown" data-protected><button>Output</button></div><pre data-protected>Input <button>Save</button></pre>
+<div class="cm-editor" data-protected>Save</div><div class="json-view" data-protected>{"Input":"Save"}</div>
+<div class="font-mono" data-protected>Input</div><div class="whitespace-pre-wrap" data-protected>Quality</div>
+<div id="slot"></div><button id="live">Save</button><span id="live-attribute" aria-label="More actions"></span>
+<button id="behavior" onclick="this.dataset.clicked='yes'">Refresh</button>
+<div role="dialog"><h2 id="dialog-title">Columns</h2><h3 id="select-title">Select</h3><span id="soon">SOON</span><span id="soon-case">Soon</span><div class="font-bold" id="quality-caption">Quality</div></div>
+<div role="dialog"><div class="cursor-pointer"><span id="date-option">Past 30 min</span></div></div>
+<div role="dialog"><p class="font-bold" id="column-caption">Columns</p><span class="capitalize" id="select-case">select</span></div>
+<div class="font-mono"><button id="json-action" aria-label="Show passthrough JSON data"></button></div>
+<table><tr><td><button id="expand-field" aria-label="Expand output_field"></button></td></tr></table>
+</body></html>

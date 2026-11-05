@@ -132,7 +132,7 @@ test("MV3 popup entry is opt-in and opening it does not translate the page", { t
   assert.deepEqual(injections, []);
   assert.equal(await page.locator("#traces").textContent(), "Traces");
   await setEnabled(true);
-  await expect(page.locator("#traces")).toHaveText("调用链");
+  await expect(page.locator("#traces")).toHaveText("完整执行");
   await expect(popup.getByRole("status")).toHaveText("中文已启用。");
   await page.reload();
   assert.equal(await page.locator("#traces").textContent(), "Traces", "A new document requires an explicit click again");
@@ -190,11 +190,11 @@ test("self-hosted Langfuse navigation, buttons, table headings and accessibility
   { url: "https://observability.example.test/project/fixture/traces", title: "Traces | Langfuse" });
   await setEnabled(true);
   await expect(page.locator("#projects")).toHaveText("项目");
-  await expect(page.locator("#traces")).toHaveText("调用链");
+  await expect(page.locator("#traces")).toHaveText("完整执行");
   await expect(page.locator("#prompts")).toHaveText("提示词");
   await expect(page.locator("#filter")).toHaveText("添加筛选条件");
   await expect(page.locator("th")).toHaveText(["名称", "耗时", "费用"]);
-  await expect(page.locator("#search")).toHaveAttribute("placeholder", "搜索调用链…");
+  await expect(page.locator("#search")).toHaveAttribute("placeholder", "搜索完整执行…");
   await expect(page.locator("#refresh")).toHaveAttribute("title", "刷新");
   await expect(page.locator("#refresh")).toHaveAttribute("aria-label", "刷新");
 });
@@ -266,7 +266,7 @@ test("user table cells stay unchanged even when names exactly match UI dictionar
     </table>`);
   const rows = await page.locator("#rows").evaluate((node) => node.outerHTML);
   await setEnabled(true);
-  await expect(page.locator("#traces")).toHaveText("调用链");
+  await expect(page.locator("#traces")).toHaveText("完整执行");
   await expect(page.locator("th")).toHaveText(["名称", "输入", "输出"]);
   assert.equal(await page.locator("#rows").evaluate((node) => node.outerHTML), rows);
   await page.locator("#rows").evaluate((node) => { node.insertAdjacentHTML("beforeend", '<tr><td><a title="Save">Save</a></td><td>Input</td><td>Output</td></tr>'); });
@@ -284,7 +284,7 @@ test("ARIA grid cells protect user names and their attributes", { timeout: 15000
     </div>`);
   const original = await page.locator("#grid-row").evaluate((node) => node.outerHTML);
   await setEnabled(true);
-  await expect(page.locator("#traces")).toHaveText("调用链");
+  await expect(page.locator("#traces")).toHaveText("完整执行");
   await expect(page.getByRole("columnheader")).toHaveText("名称");
   assert.equal(await page.locator("#grid-row").evaluate((node) => node.outerHTML), original);
 });
@@ -333,7 +333,7 @@ for (const detail of ["traces/trace-123", "prompts/prompt-123", "datasets/datase
       </main>`, { url: `https://cloud.langfuse.com/project/fixture/${detail}` });
     const original = await page.locator("#user-name, #breadcrumb, #user-description").evaluateAll((nodes) => nodes.map((node) => node.outerHTML));
     await setEnabled(true);
-    await expect(page.locator("#traces")).toHaveText("调用链");
+    await expect(page.locator("#traces")).toHaveText("完整执行");
     await expect(page.locator("#details")).toHaveText("详情");
     assert.deepEqual(await page.locator("#user-name, #breadcrumb, #user-description").evaluateAll((nodes) => nodes.map((node) => node.outerHTML)), original);
     await setEnabled(false);
@@ -359,7 +359,7 @@ test("React-style text updates, replacement nodes and later attribute updates tr
   });
   await expect(page.locator("#action")).toHaveText("取消");
   await expect(page.locator("#inserted")).toHaveText("创建");
-  await expect(page.locator("#search")).toHaveAttribute("placeholder", "搜索调用链…");
+  await expect(page.locator("#search")).toHaveAttribute("placeholder", "搜索完整执行…");
   await expect(page.locator("#icon")).toHaveAttribute("title", "复制");
   await expect(page.locator("#icon")).toHaveAttribute("aria-label", "复制");
   await page.locator("#action").evaluate((node) => { node.textContent = "Delete"; });

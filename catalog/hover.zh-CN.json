@@ -1,0 +1,4353 @@
+{
+  "schemaVersion": 1,
+  "langfuseVersion": "4.75.0",
+  "sourceCommit": "fd1605c762db572669321eb1f989aa566b6883ed",
+  "scope": "Header help objects including JSX fragments and links, headerTooltip, tooltip contents and native title attributes; not an exhaustive state-space claim",
+  "entries": [
+    {
+      "text": "active",
+      "covered": false,
+      "locations": [
+        {
+          "file": "components/table/data-table-controls.tsx",
+          "line": 939,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "已启用"
+    },
+    {
+      "text": "more",
+      "covered": false,
+      "locations": [
+        {
+          "file": "components/table/data-table-controls.tsx",
+          "line": 955,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "更多"
+    },
+    {
+      "text": "Nothing to exclude yet — uncheck a value to exclude it, or select values first.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "components/table/data-table-controls.tsx",
+          "line": 1825,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "暂无排除项。取消勾选某个值可将其排除，也可以先选择一些值。"
+    },
+    {
+      "text": "Approximate count over the active column filters and time range only. It excludes full-text search, score, and comment filters, so it can be noticeably higher than the number of matching rows.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "components/table/DataTablePagination.tsx",
+          "line": 167,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "此估算总数只考虑当前列筛选和时间范围，不包含全文搜索、评分或评论筛选，因此可能明显高于实际匹配行数。"
+    },
+    {
+      "text": "Approximate number of matching rows for the active filters and time range, estimated with ClickHouse's HyperLogLog (typically within a few percent of the true count).",
+      "covered": false,
+      "locations": [
+        {
+          "file": "components/table/DataTablePagination.tsx",
+          "line": 174,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "根据当前筛选和时间范围，使用 ClickHouse 的 HyperLogLog 估算匹配行数；通常与实际数量相差几个百分点。"
+    },
+    {
+      "text": "Gateway key created",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayApiKeysPage/components/CreateGatewayApiKeyDialogController/CreateGatewayApiKeyDialogController.tsx",
+          "line": 136,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "网关密钥已创建"
+    },
+    {
+      "text": "Create gateway key",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayApiKeysPage/components/CreateGatewayApiKeyDialogController/CreateGatewayApiKeyDialogController.tsx",
+          "line": 148,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "创建网关密钥"
+    },
+    {
+      "text": "About gateway key metadata",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayApiKeysPage/components/CreateGatewayApiKeyDialogController/CreateGatewayApiKeyDialogController.tsx",
+          "line": 245,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "关于网关密钥附加信息"
+    },
+    {
+      "text": "Attached to every trace from this key, so you can filter and group by it.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayApiKeysPage/components/CreateGatewayApiKeyDialogController/CreateGatewayApiKeyDialogController.tsx",
+          "line": 246,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "这些信息会附加到使用此密钥上报的每条完整执行记录，便于筛选和分组。"
+    },
+    {
+      "text": "All queue items processed",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/annotation-queues/components/AnnotationQueueItemPage.tsx",
+          "line": 386,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "全部队列条目已处理"
+    },
+    {
+      "text": "Previous item",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/annotation-queues/components/AnnotationQueueItemPage.tsx",
+          "line": 468,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "上一项"
+    },
+    {
+      "text": "Skip to next item",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/annotation-queues/components/AnnotationQueueItemPage.tsx",
+          "line": 510,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "跳到下一项"
+    },
+    {
+      "text": "Link to the source trace, observation or session based on which this item was added",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/annotation-queues/components/AnnotationQueueItemsTable.tsx",
+          "line": 302,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "打开此条目对应的原始完整执行、执行步骤或对话。"
+    },
+    {
+      "text": "Remove score configs from queue?",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/annotation-queues/components/AnnotationQueueScoreConfigEditor.tsx",
+          "line": 39,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "从队列移除评分配置？"
+    },
+    {
+      "text": "Score configs define the fields annotators see. Adding or removing fields applies when items are reopened, including completed items. Historical scores and completion status stay unchanged. Editing a score config changes its project-wide definition for future scoring wherever it is used.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/annotation-queues/components/AnnotationQueueScoreConfigEditor.tsx",
+          "line": 97,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "评分配置决定标注人员看到的字段。添加或移除字段会在重新打开条目时生效，也包括已完成的条目；历史评分和完成状态保持。编辑配置会改变项目级定义，影响之后所有使用此配置的评分。"
+    },
+    {
+      "text": "Remove from queue",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/annotation-queues/components/AnnotationQueueScoreConfigEditor.tsx",
+          "line": 149,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "从队列移除"
+    },
+    {
+      "text": "Calculated multiplying the number of tokens with cost per token for each model.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/dashboard/components/ModelCostTable.tsx",
+          "line": 133,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "按各模型的 Token 数量乘以对应单价计算。"
+    },
+    {
+      "text": "Aggregate of up to 10,000 scores",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/dashboard/components/score-analytics/ScoreAnalytics.tsx",
+          "line": 143,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "最多汇总 10,000 条评分"
+    },
+    {
+      "text": "Link to the source trace based on which this item was added",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/components/DatasetItemsTable.tsx",
+          "line": 190,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "打开添加此条目时对应的原始完整执行。"
+    },
+    {
+      "text": "When a single csv column is mapped to a dataset item field, wrap its value in an object instead of using the raw value. Example:",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/components/PreviewCsvImport.tsx",
+          "line": 259,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "将单个 CSV 列对应到数据集条目字段时，把值包装为对象，而非直接使用原值。例如："
+    },
+    {
+      "text": "{\"columnName\": \"value\"}",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/components/PreviewCsvImport.tsx",
+          "line": 261,
+          "reason": "tooltip-expression"
+        }
+      ],
+      "status": "preserved",
+      "reason": "code-example"
+    },
+    {
+      "text": "instead of",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/components/PreviewCsvImport.tsx",
+          "line": 261,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "而非"
+    },
+    {
+      "text": "\"value\"",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/components/PreviewCsvImport.tsx",
+          "line": 261,
+          "reason": "tooltip-expression"
+        }
+      ],
+      "status": "preserved",
+      "reason": "code-example"
+    },
+    {
+      "text": "Requires project-level evaluation model",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/components/EvaluatorSelector.tsx",
+          "line": 223,
+          "reason": "tooltip-child"
+        },
+        {
+          "file": "features/evals/components/EvaluatorSelector.tsx",
+          "line": 300,
+          "reason": "tooltip-child"
+        },
+        {
+          "file": "features/evals/components/TemplateSelector.tsx",
+          "line": 241,
+          "reason": "tooltip-child"
+        },
+        {
+          "file": "features/evals/components/TemplateSelector.tsx",
+          "line": 337,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "需要项目级评估模型"
+    },
+    {
+      "text": "Configure default model",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/components/EvaluatorSelector.tsx",
+          "line": 230,
+          "reason": "tooltip-child"
+        },
+        {
+          "file": "features/evals/components/EvaluatorSelector.tsx",
+          "line": 307,
+          "reason": "tooltip-child"
+        },
+        {
+          "file": "features/evals/components/TemplateSelector.tsx",
+          "line": 249,
+          "reason": "tooltip-child"
+        },
+        {
+          "file": "features/evals/components/TemplateSelector.tsx",
+          "line": 345,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "配置默认模型"
+    },
+    {
+      "text": "Upgrade now",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/components/EvaluatorTable.tsx",
+          "line": 211,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "立即升级"
+    },
+    {
+      "text": "The evaluator has been used in the past but is currently paused. It will not run against outputs created in this dataset run. You can reactivate it if you wish",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/components/TemplateSelector.tsx",
+          "line": 256,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/evals/components/TemplateSelector.tsx",
+          "line": 352,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "此评估器曾使用过，目前已暂停，不会评估本次数据集运行的输出。需要时可重新启用。"
+    },
+    {
+      "text": "Evaluation Prompt",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/components/VariableMappingCard.tsx",
+          "line": 313,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "评估提示词"
+    },
+    {
+      "text": "Variable in the template to be replaced with the mapped data.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/components/VariableMappingCard.tsx",
+          "line": 353,
+          "reason": "hover-attribute"
+        },
+        {
+          "file": "features/evals/components/VariableMappingCard.tsx",
+          "line": 626,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "模板中的变量，会被对应的数据替换。"
+    },
+    {
+      "text": "Object",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/components/VariableMappingCard.tsx",
+          "line": 364,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/evals/components/VariableMappingCard.tsx",
+          "line": 633,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "对象"
+    },
+    {
+      "text": "Object Name",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/components/VariableMappingCard.tsx",
+          "line": 425,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "对象名称"
+    },
+    {
+      "text": "Object Field",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/components/VariableMappingCard.tsx",
+          "line": 521,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/evals/components/VariableMappingCard.tsx",
+          "line": 664,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "对象字段"
+    },
+    {
+      "text": "JsonPath",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/components/VariableMappingCard.tsx",
+          "line": 589,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/evals/components/VariableMappingCard.tsx",
+          "line": 710,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "JSONPath（字段路径）"
+    },
+    {
+      "text": "About options",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/ChoiceOptionsEditor/ChoiceOptionsEditor.tsx",
+          "line": 43,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "关于选项"
+    },
+    {
+      "text": "One label per option. A short description sharpens the boundary between options; add an “other” option when the list may not cover every input.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/ChoiceOptionsEditor/ChoiceOptionsEditor.tsx",
+          "line": 44,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "每个选项对应一个标签。简短说明有助于区分各选项；若列表无法覆盖全部输入，可增加“其他”选项。"
+    },
+    {
+      "text": "About question types",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/DecisionModelQuestionCard/DecisionModelQuestionCard.tsx",
+          "line": 158,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "关于问题类型"
+    },
+    {
+      "text": "Choice picks one of a fixed set of labels. Score rates along ordered levels you describe. Yes/no returns the probability that a statement is true. Pick the one your code can act on directly.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/DecisionModelQuestionCard/DecisionModelQuestionCard.tsx",
+          "line": 159,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "“选择”从固定标签中选一个；“评分”按你描述的有序等级评价；“是非”返回某个陈述为真的概率。请选择代码能直接使用的结果类型。"
+    },
+    {
+      "text": "About score names",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/DecisionModelQuestionCard/DecisionModelQuestionCard.tsx",
+          "line": 219,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "关于评分名称"
+    },
+    {
+      "text": "Each question writes its own score under this name. Keep it stable: renaming starts a new score series.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/DecisionModelQuestionCard/DecisionModelQuestionCard.tsx",
+          "line": 220,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "每个问题都会以此名称保存独立评分。建议保持名称稳定；改名会开始一个新的评分序列。"
+    },
+    {
+      "text": "About questions",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/DecisionModelQuestionList/DecisionModelQuestionList.tsx",
+          "line": 127,
+          "reason": "hover-attribute"
+        },
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/OpenAIQuestionInstructions/OpenAIQuestionInstructions.tsx",
+          "line": 29,
+          "reason": "hover-attribute"
+        },
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/QuestionInstructionsField/QuestionInstructionsField.tsx",
+          "line": 59,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "关于问题"
+    },
+    {
+      "text": "Each question is one snap judgment about the state and writes one score. All questions are answered in a single model call, so a second or tenth question costs only its own tokens.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/DecisionModelQuestionList/DecisionModelQuestionList.tsx",
+          "line": 128,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "每个问题都对当前状态作一次快速判断，并保存一个评分。所有问题在同一次模型调用中回答，增加问题只会增加其自身的 Token 用量。"
+    },
+    {
+      "text": "About extra questions",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/DecisionModelQuestionList/DecisionModelQuestionList.tsx",
+          "line": 194,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "关于附加问题"
+    },
+    {
+      "text": "Answered together in one call; extra questions add only their own tokens.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/DecisionModelQuestionList/DecisionModelQuestionList.tsx",
+          "line": 195,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "附加问题在同一次调用中一起回答，只增加其自身的 Token 用量。"
+    },
+    {
+      "text": "Ask for one snap judgment. This text is sent as written. The model reads the input object, so the question does not insert fields.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/OpenAIQuestionInstructions/OpenAIQuestionInstructions.tsx",
+          "line": 30,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "只要求一次快速判断。此问题会按原文发送；模型会读取输入对象，问题中无需插入字段值。"
+    },
+    {
+      "text": "Ask for one snap judgment a knowledgeable person makes in a second. Name the state field the question is about in backticks, for example “Does `question` request a refund?”. The model reads the state as a JSON object, so the question does not repeat the data.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/QuestionInstructionsField/QuestionInstructionsField.tsx",
+          "line": 60,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "提出一个有相关知识的人能迅速判断的问题，用反引号标明所指字段，例如“`question` 是否要求退款？”。模型会读取 JSON 状态对象，问题中无需重复数据。"
+    },
+    {
+      "text": "About levels",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/ScoreLevelsEditor/ScoreLevelsEditor.tsx",
+          "line": 48,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "关于等级"
+    },
+    {
+      "text": "Each level is one point on the scale. The model judges every level on its own against the state and returns a position between them, so describe situations (“broken, but a workaround exists”), not degrees (“moderately severe”). Two to ten levels; drag to reorder.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/ScoreLevelsEditor/ScoreLevelsEditor.tsx",
+          "line": 49,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "每个等级是量表上的一个位置。模型会分别对照当前状态判断，再返回介于等级之间的分值。因此请描述具体情况（如“功能损坏，但有替代办法”），而非模糊程度（如“中等严重”）。支持 2 至 10 个等级，可拖动排序。"
+    },
+    {
+      "text": "About the score",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/ScoreLevelsEditor/ScoreLevelsEditor.tsx",
+          "line": 104,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "关于评分结果"
+    },
+    {
+      "text": "The score is the probability-weighted average of the level numbers, so it can be a decimal from 0 to",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/ScoreLevelsEditor/ScoreLevelsEditor.tsx",
+          "line": 105,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "评分是各等级编号按概率加权的平均值，因此可以是小数，范围从 0 到"
+    },
+    {
+      "text": "About evaluation types",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/EvaluationTypeConfiguration/EvaluationTypeConfiguration.tsx",
+          "line": 26,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "关于评估类型"
+    },
+    {
+      "text": "Use custom code for deterministic checks like exact matches, regex, or schema validation. Use an LLM when the check needs judgment, such as rating helpfulness, tone, or answer quality. Use a decision model for a fast, cheap label with calibrated probabilities when the possible answers are known upfront.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/EvaluationTypeConfiguration/EvaluationTypeConfiguration.tsx",
+          "line": 27,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "完全匹配、正则表达式或格式校验等确定性检查适合用代码；有用性、语气、回答质量等需要判断的检查适合用大模型。若候选答案预先确定，可用判断模型快速、低成本地给出标签和校准后的概率。"
+    },
+    {
+      "text": "Drag to reorder message",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/EvaluatorSetupEditor/components/DefinitionStep/components/PromptEditor/PromptEditor.tsx",
+          "line": 308,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "拖动调整消息顺序"
+    },
+    {
+      "text": "About evaluator names",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/EvaluatorSetupEditor/components/NameStep/NameStep.tsx",
+          "line": 57,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "关于评估器名称"
+    },
+    {
+      "text": "The evaluator name is also used as the score name for the scores it produces.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/EvaluatorSetupEditor/components/NameStep/NameStep.tsx",
+          "line": 58,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "评估器名称也会用作其生成的评分名称。"
+    },
+    {
+      "text": "score output",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/Judges/ScoreOutputConfiguration/components/ScoreOutputSection/ScoreOutputSection.tsx",
+          "line": 162,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "评分输出"
+    },
+    {
+      "text": "Edit category",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/Judges/ScoreOutputConfiguration/components/ScoreOutputSection/ScoreOutputSection.tsx",
+          "line": 286,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "编辑类别"
+    },
+    {
+      "text": "Attach evaluators",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Rules/RuleSetup/components/RuleEvaluatorsStep.tsx",
+          "line": 105,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "关联评估器"
+    },
+    {
+      "text": "Delete evaluation rules?",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Rules/RulesTable/RulesTable.tsx",
+          "line": 683,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "删除评分规则？"
+    },
+    {
+      "text": "Add metadata to traces to track additional information.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/events/components/EventsTable.tsx",
+          "line": 1315,
+          "reason": "hover-description"
+        },
+        {
+          "file": "features/tracing-tables/observations/ObservationsTable.tsx",
+          "line": 1043,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "为完整执行添加附加信息，以记录其他内容。"
+    },
+    {
+      "text": "You can differentiate the importance of observations with the level attribute to control the verbosity of your traces and highlight errors and warnings.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/events/components/EventsTable.tsx",
+          "line": 1329,
+          "reason": "hover-description"
+        },
+        {
+          "file": "features/tracing-tables/observations/ObservationsTable.tsx",
+          "line": 864,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "状态（level）表示执行步骤的重要程度，可区分常规、警告和错误，便于筛选记录和定位问题。"
+    },
+    {
+      "text": "Use a statusMessage to e.g. provide additional information on a status such as level=ERROR.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/events/components/EventsTable.tsx",
+          "line": 1344,
+          "reason": "hover-description"
+        },
+        {
+          "file": "features/tracing-tables/observations/ObservationsTable.tsx",
+          "line": 879,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "状态说明（statusMessage）用于补充详细情况，例如说明 level=ERROR 的具体原因。"
+    },
+    {
+      "text": "Link to prompt version in Langfuse prompt management.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/events/components/EventsTable.tsx",
+          "line": 1572,
+          "reason": "hover-description"
+        },
+        {
+          "file": "features/tracing-tables/observations/ObservationsTable.tsx",
+          "line": 1008,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "打开提示词管理中对应的提示词版本。"
+    },
+    {
+      "text": "Track changes via the version tag.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/events/components/EventsTable.tsx",
+          "line": 1638,
+          "reason": "hover-description"
+        },
+        {
+          "file": "features/tracing-tables/observations/ObservationsTable.tsx",
+          "line": 1123,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "通过版本标签追踪变化。"
+    },
+    {
+      "text": "Track changes to your application via the release tag.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/events/components/EventsTable.tsx",
+          "line": 1650,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "通过发布版本标签追踪应用的变化。"
+    },
+    {
+      "text": "Runs on another dataset scored different items, so their values are not comparable.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/experiments/components/ExperimentComparisonSelector.tsx",
+          "line": 396,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "不同数据集上的运行评估了不同条目，因此评分不能直接比较。"
+    },
+    {
+      "text": "This run name is auto-generated from the experiment name and can be used to fetch the resulting experiment run via the public API.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/experiments/components/steps/ReviewStep.tsx",
+          "line": 163,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "此运行名称根据实验名称自动生成，可用来通过公共 API 获取对应的实验运行结果。"
+    },
+    {
+      "text": "Changed compared to baseline",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/experiments/components/table/ExperimentGridCell.tsx",
+          "line": 272,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "与基准相比有变化"
+    },
+    {
+      "text": "Average duration of the root span per experiment item.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/experiments/components/table/ExperimentsTable.tsx",
+          "line": 747,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "每个实验条目中，顶层步骤的平均耗时。"
+    },
+    {
+      "text": "Save the integration before running the validation.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/external-media-storage/ExternalMediaStoragePage.tsx",
+          "line": 150,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "请先保存集成配置，再验证。"
+    },
+    {
+      "text": "Delete external media storage?",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/external-media-storage/ExternalMediaStoragePage.tsx",
+          "line": 230,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "删除外部媒体存储？"
+    },
+    {
+      "text": "Make a change before saving.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/external-media-storage/ExternalMediaStoragePage.tsx",
+          "line": 249,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "修改内容后才能保存。"
+    },
+    {
+      "text": "Halo",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/in-app-agent/components/InAppAgentWindow.tsx",
+          "line": 959,
+          "reason": "native-title"
+        }
+      ],
+      "status": "preserved",
+      "reason": "brand"
+    },
+    {
+      "text": "Start new conversation",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/in-app-agent/components/InAppAgentWindow.tsx",
+          "line": 989,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "开始新对话"
+    },
+    {
+      "text": "Conversation history",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/in-app-agent/components/InAppAgentWindow.tsx",
+          "line": 1029,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "对话历史"
+    },
+    {
+      "text": "Model configuration and pricing details",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/models/ModelDetailPage.tsx",
+          "line": 117,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "模型配置与价格详情"
+    },
+    {
+      "text": "Download as CSV",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/organization-usage/components/OrganizationUsageBreakdown.tsx",
+          "line": 185,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "下载为 CSV"
+    },
+    {
+      "text": "You can use this prompt within your application through the Langfuse SDKs and integrations. Refer to the documentation for more information.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/prompts/components/PromptDetail.tsx",
+          "line": 426,
+          "reason": "hover-description"
+        },
+        {
+          "file": "features/prompts/PromptMetricsPage.tsx",
+          "line": 380,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "可通过 Langfuse SDK 和集成，在应用中使用此提示词。详细用法请参阅文档。"
+    },
+    {
+      "text": "Text Prompt (resolved)",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/prompts/components/PromptDetail.tsx",
+          "line": 756,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "文本提示词（已展开引用）"
+    },
+    {
+      "text": "Text Prompt",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/prompts/components/PromptDetail.tsx",
+          "line": 760,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "文本提示词"
+    },
+    {
+      "text": "Python",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/prompts/components/PromptDetail.tsx",
+          "line": 785,
+          "reason": "native-title"
+        }
+      ],
+      "status": "preserved",
+      "reason": "language-name"
+    },
+    {
+      "text": "JS/TS",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/prompts/components/PromptDetail.tsx",
+          "line": 787,
+          "reason": "native-title"
+        }
+      ],
+      "status": "preserved",
+      "reason": "language-name"
+    },
+    {
+      "text": "Compare with selected prompt",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/prompts/components/PromptHistoryNode.tsx",
+          "line": 152,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "与选中的提示词比较"
+    },
+    {
+      "text": "This is calculated based on the selected date range, not the full usage history.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/prompts/PromptMetricsPage.tsx",
+          "line": 309,
+          "reason": "hover-description"
+        },
+        {
+          "file": "features/prompts/PromptMetricsPage.tsx",
+          "line": 321,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "此值根据当前选择的日期范围计算，并非全部历史用量。"
+    },
+    {
+      "text": "View permissions",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/rbac/components/RoleSelectItem.tsx",
+          "line": 52,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "查看权限"
+    },
+    {
+      "text": "Add metadata to scores to track additional information.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/scores/ScoresTable.tsx",
+          "line": 761,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "为评分添加附加信息，以记录其他内容。"
+    },
+    {
+      "text": "The user ID associated with the trace.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/scores/ScoresTable.tsx",
+          "line": 906,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "与完整执行关联的用户 ID。"
+    },
+    {
+      "text": "Categorical and text scores have no numeric value, so they're excluded from Value.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/scores-chart-view/components/ScoreOutlierStripHeader.tsx",
+          "line": 69,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "分类评分和文本评分没有数值，因此不计入“数值”列。"
+    },
+    {
+      "text": "Some messages may be missing because the observation limit was reached.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/sessions/components/ConnectedModernSessionBodyTimeline/components/ConnectedSessionConversationTimeline/components/SessionConversationalView/components/SessionConversationTimeline/components/SessionConversationTimelineTrace/SessionConversationTimelineTrace.tsx",
+          "line": 160,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "已达到执行步骤数量上限，可能有部分消息未显示。"
+    },
+    {
+      "text": "Remove metadata JSONPath",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/sessions/ModernSessionHeader.tsx",
+          "line": 163,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "移除附加信息的 JSONPath"
+    },
+    {
+      "text": "session duration",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/sessions/ModernSessionHeader.tsx",
+          "line": 343,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "对话时长"
+    },
+    {
+      "text": "Save as view",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/sessions/ModernSessionSidebar.tsx",
+          "line": 585,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "另存为视图"
+    },
+    {
+      "text": "Edit filters",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/sessions/ModernSessionSidebar.tsx",
+          "line": 601,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "编辑筛选条件"
+    },
+    {
+      "text": "The number of traces in the session.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/sessions/SessionsTable.tsx",
+          "line": 652,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "此对话中的完整执行次数。"
+    },
+    {
+      "text": "Discard draft?",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/skills/components/SkillEditor.tsx",
+          "line": 580,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "放弃草稿？"
+    },
+    {
+      "text": "Private channels are only listed for the person who connected Slack to this project, and only those they are a member of. Reconnect Slack to list your own private channels.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/slack/components/PrivateChannelsInfoTooltip.tsx",
+          "line": 6,
+          "reason": "hover-attribute"
+        }
+      ],
+      "status": "translated",
+      "translation": "只有将 Slack 连接到此项目的人能看到其已加入的私有频道。如需查看自己的私有频道，请重新连接 Slack。"
+    },
+    {
+      "text": "No runs yet",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/topics/TopicRunHistoryList.tsx",
+          "line": 233,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "暂无运行记录"
+    },
+    {
+      "text": "Couldn’t load run history",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/topics/TopicRunHistoryList.tsx",
+          "line": 249,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "无法加载运行历史"
+    },
+    {
+      "text": "Provided at ingestion",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/BreakdownTooltip.tsx",
+          "line": 134,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "上报时提供"
+    },
+    {
+      "text": "Calculated ·",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/BreakdownTooltip.tsx",
+          "line": 149,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "计算所得 ·"
+    },
+    {
+      "text": "Tier Pricing",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/BreakdownTooltip.tsx",
+          "line": 149,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "分档计价"
+    },
+    {
+      "text": "Calculated from model pricing",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/BreakdownTooltip.tsx",
+          "line": 157,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "按模型价格计算"
+    },
+    {
+      "text": "Aggregate across",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/BreakdownTooltip.tsx",
+          "line": 163,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "汇总范围："
+    },
+    {
+      "text": "Previous match (Shift+Enter)",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/IOPreview/IOPreviewJSON.tsx",
+          "line": 706,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "上一个匹配项（Shift+Enter）"
+    },
+    {
+      "text": "Next match (Enter)",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/IOPreview/IOPreviewJSON.tsx",
+          "line": 715,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "下一个匹配项（Enter）"
+    },
+    {
+      "text": "The number of observations in the trace.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracesTable.tsx",
+          "line": 1058,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "此完整执行中的执行步骤数量。"
+    },
+    {
+      "text": "The unique identifier for the user that was logged in Langfuse. See docs for more details on how to set this up.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/users/UsersTable.tsx",
+          "line": 394,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "记录在 Langfuse 中的用户唯一标识。配置方式请参阅文档。"
+    },
+    {
+      "text": "The earliest trace recorded for this user.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/users/UsersTable.tsx",
+          "line": 420,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "该用户最早的一条完整执行记录。"
+    },
+    {
+      "text": "The latest trace recorded for this user.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/users/UsersTable.tsx",
+          "line": 430,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "该用户最近的一条完整执行记录。"
+    },
+    {
+      "text": "Total number of events for the user, includes traces and observations. See data model for more details.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/users/UsersTable.tsx",
+          "line": 448,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "该用户的事件总数，包括完整执行和执行步骤。详见数据模型。"
+    },
+    {
+      "text": "Total number of tokens used for the user across all generations.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/users/UsersTable.tsx",
+          "line": 460,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "该用户全部模型调用的 Token 总用量。"
+    },
+    {
+      "text": "Total cost for the user across all generations.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/users/UsersTable.tsx",
+          "line": 471,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "该用户全部模型调用的总费用。"
+    },
+    {
+      "text": "Update SDK",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/v4-migration/V4MigrationContent.tsx",
+          "line": 485,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "更新 SDK"
+    },
+    {
+      "text": "Update OTel Instrumentation",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/v4-migration/V4MigrationContent.tsx",
+          "line": 565,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "更新 OTel 采集组件"
+    },
+    {
+      "text": "Upgrade Instrumentation",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/v4-migration/V4MigrationContent.tsx",
+          "line": 622,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "升级采集组件"
+    },
+    {
+      "text": "Detected V4-compatible instrumentation",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/v4-migration/V4MigrationContent.tsx",
+          "line": 677,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "已检测到兼容 V4 的采集组件"
+    },
+    {
+      "text": "Update Evals",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/v4-migration/V4MigrationContent.tsx",
+          "line": 740,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "更新评估功能"
+    },
+    {
+      "text": "Update Experiments",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/v4-migration/V4MigrationContent.tsx",
+          "line": 826,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "更新实验功能"
+    },
+    {
+      "text": "Migrate APIs",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/v4-migration/V4MigrationContent.tsx",
+          "line": 926,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "迁移 API"
+    },
+    {
+      "text": "Migrate Integrations",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/v4-migration/V4MigrationContent.tsx",
+          "line": 1180,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "迁移集成"
+    },
+    {
+      "text": "Annotation queues are used to manage scoring workflows for your LLM projects. See docs to learn more.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/annotation-queues/pages/AnnotationQueues.tsx",
+          "line": 42,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "标注队列用于管理项目中的评分流程。详细用法请参阅文档。"
+    },
+    {
+      "text": "Manage and create dashboards for your project.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/dashboard/DashboardsPage.tsx",
+          "line": 25,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "管理并创建项目仪表盘。"
+    },
+    {
+      "text": "Create a new dashboard for your project",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/dashboard/NewDashboardPage.tsx",
+          "line": 71,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "为此项目创建新仪表盘"
+    },
+    {
+      "text": "Compare your experiments side by side",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/DatasetCompareChartsPage.tsx",
+          "line": 112,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "并排比较实验结果"
+    },
+    {
+      "text": "Compare your dataset runs side by side",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/DatasetComparePage.tsx",
+          "line": 93,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "并排比较数据集运行结果"
+    },
+    {
+      "text": "Datasets in Langfuse are a collection of inputs (and expected outputs) of an LLM application. They are used to benchmark new releases before deployment to production. See docs to learn more.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/DatasetsPage.tsx",
+          "line": 40,
+          "reason": "hover-description"
+        },
+        {
+          "file": "features/datasets/DatasetsPage.tsx",
+          "line": 57,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "数据集汇总应用的输入及预期输出，可在发布前比较新版本的表现。详细用法请参阅文档。"
+    },
+    {
+      "text": "Configure a default evaluation model for your project.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/pages/DefaultEvaluationModelPage.tsx",
+          "line": 26,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "为项目配置默认评估模型。"
+    },
+    {
+      "text": "Configure a langfuse managed or custom evaluator to evaluate incoming traces.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/pages/EvaluatorsPage.tsx",
+          "line": 65,
+          "reason": "hover-description"
+        },
+        {
+          "file": "features/evals/pages/EvaluatorsPage.tsx",
+          "line": 89,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "配置内置或自定义评估器，自动评估新收到的完整执行记录。"
+    },
+    {
+      "text": "View all langfuse managed and custom evaluators.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/pages/TemplatesPage.tsx",
+          "line": 40,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "查看全部内置和自定义评估器。"
+    },
+    {
+      "text": "Create reusable evaluator definitions and test them before activation.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/pages/EvaluatorsPage.tsx",
+          "line": 620,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "创建可复用的评估器定义，并在启用前进行测试。"
+    },
+    {
+      "text": "Rules define which incoming observations reusable evaluators run on.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/pages/RulesPage.tsx",
+          "line": 38,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "规则决定可复用评估器应评估哪些新收到的执行步骤。"
+    },
+    {
+      "text": "An observation captures a single function call in an application. This view uses the new ClickHouse events table.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/events/EventsPage.tsx",
+          "line": 45,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "执行步骤对应应用中的一次函数调用。此页面使用新版 ClickHouse 事件表。"
+    },
+    {
+      "text": "Alerts notify your team and automated workflows of sudden cost spikes, quality drops, latency changes, and other important changes on the system.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/monitors/pages/ListMonitorsPage.tsx",
+          "line": 23,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "当费用突增、质量下降、耗时变化或系统出现其他重要变化时，通过告警通知团队或触发自动流程。"
+    },
+    {
+      "text": "Receives AI Gateway traces",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/organizations/components/OrganizationProjectOverview.tsx",
+          "line": 69,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "接收 AI Gateway 的执行记录"
+    },
+    {
+      "text": "No access to this organization",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/organizations/components/OrganizationProjectOverview.tsx",
+          "line": 461,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "无权访问此组织"
+    },
+    {
+      "text": "Organization not found",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/organizations/components/OrganizationProjectOverview.tsx",
+          "line": 481,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "找不到此组织"
+    },
+    {
+      "text": "Organizations help you manage access to projects. Each organization can have multiple projects and team members with different roles.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/organizations/components/OrganizationProjectOverview.tsx",
+          "line": 496,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "组织用于管理项目访问权限。每个组织可以包含多个项目，并为团队成员分配不同角色。"
+    },
+    {
+      "text": "Manage and version your prompts in Langfuse. Edit and update them via the UI and SDK. Retrieve the production version via the SDKs. Learn more in the docs.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/prompts/components/NewPrompt.tsx",
+          "line": 58,
+          "reason": "hover-description"
+        },
+        {
+          "file": "features/prompts/PromptsPage.tsx",
+          "line": 129,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "在 Langfuse 中管理提示词及其版本，通过界面或 SDK 编辑更新，再用 SDK 获取生产版本。详细用法请参阅文档。"
+    },
+    {
+      "text": "A score is an evaluation of a trace or observation. It can be created from user feedback, model-based evaluations, or manual review. See docs to learn more.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/scores/ScoresAnalyticsPage.tsx",
+          "line": 200,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "评分用于评价完整执行或某个执行步骤，可来自用户反馈、模型自动评分或人工评审。详细用法请参阅文档。"
+    },
+    {
+      "text": "A scores is an evaluation of a traces or observations. It can be created from user feedback, model-based evaluations, or manual review. See docs to learn more.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/scores/ScoresPage.tsx",
+          "line": 40,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "评分用于评价完整执行或某个执行步骤，可来自用户反馈、模型自动评分或人工评审。详细用法请参阅文档。"
+    },
+    {
+      "text": "A session is a collection of related traces, such as a conversation or thread. To begin, add a sessionId to the trace. See",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/sessions/SessionsPage.tsx",
+          "line": 52,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "一次对话由多条相关的完整执行记录组成，例如同一聊天或调用线程。为执行记录添加 sessionId 即可归组，详见"
+    },
+    {
+      "text": "Create a new organization. This will be used to manage your projects and teams.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/setup/components/SetupPage.tsx",
+          "line": 35,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "创建新组织，用于管理项目和团队。"
+    },
+    {
+      "text": "The skill name and description are parsed from the frontmatter in SKILL.md.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/skills/components/SkillEditorPage.tsx",
+          "line": 54,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "技能名称和说明取自 SKILL.md 文件开头的元数据。"
+    },
+    {
+      "text": "Edit SKILL.md to change the skill name.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/skills/components/SkillEditorPage.tsx",
+          "line": 161,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "编辑 SKILL.md 可修改技能名称。"
+    },
+    {
+      "text": "You can still create and use skills in the legacy view.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/skills/components/SkillsPage.tsx",
+          "line": 104,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "仍可在旧版视图中创建和使用技能。"
+    },
+    {
+      "text": "Create, version, and distribute reusable agent skills from one place.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/skills/components/SkillsPage.tsx",
+          "line": 114,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "统一创建、管理版本并分发可复用的智能体技能。"
+    },
+    {
+      "text": "Delete skill",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/skills/components/SkillsPage.tsx",
+          "line": 425,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "删除技能"
+    },
+    {
+      "text": "You do not have write access",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/skills/components/SkillsPage.tsx",
+          "line": 543,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "您没有修改权限"
+    },
+    {
+      "text": "A trace represents a single function/api invocation. Traces contain observations. See [docs](https://langfuse.com/docs/observability/data-model) to learn more.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracesPage.tsx",
+          "line": 50,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "一次完整执行对应一次函数或 API 调用，包含多个执行步骤。详见[文档](https://langfuse.com/docs/observability/data-model)。"
+    },
+    {
+      "text": "A trace represents a single function/api invocation. Traces contain observations. See",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracesPage.tsx",
+          "line": 70,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "一次完整执行对应一次函数或 API 调用，包含多个执行步骤。详见"
+    },
+    {
+      "text": "1. Get API keys",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracesSetupPage.tsx",
+          "line": 45,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "1. 获取 API 密钥"
+    },
+    {
+      "text": "2. Add tracing to your application",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracesSetupPage.tsx",
+          "line": 82,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "2. 将执行追踪接入应用"
+    },
+    {
+      "text": "Setup tracing to track and analyze your LLM calls. You can create API keys and integrate Langfuse with your application.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracesSetupPage.tsx",
+          "line": 137,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "接入执行追踪后，可记录并分析模型调用。先创建 API 密钥，再将 Langfuse 接入应用。"
+    },
+    {
+      "text": "Group traces with tags. Read more about implementing tags",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracesTable.tsx",
+          "line": 921,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "用标签给完整执行记录分组。标签的接入方式详见"
+    },
+    {
+      "text": "Add metadata to traces to track additional information. Read more about adding metadata",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracesTable.tsx",
+          "line": 949,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "为完整执行添加附加信息，以记录其他内容。接入方式详见"
+    },
+    {
+      "text": "Group traces into sessions to track longer conversations/workflows. Read more about sessions",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracesTable.tsx",
+          "line": 1006,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "用对话归组完整执行记录，追踪较长的聊天或工作流。详见"
+    },
+    {
+      "text": "to traces to track users. Read more about user tracking",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracesTable.tsx",
+          "line": 1033,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "即可关联用户。用户追踪的接入方式详见"
+    },
+    {
+      "text": "Track changes via the version tag. Read more about versions",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracesTable.tsx",
+          "line": 1091,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "通过版本标签追踪变化。版本功能详见"
+    },
+    {
+      "text": "Track changes to your application via the release tag. Read more about the release tag",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracesTable.tsx",
+          "line": 1117,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "通过发布版本标签追踪应用的变化。详见"
+    },
+    {
+      "text": "An observation captures a single function call in an application. See docs to learn more.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/tracing-tables/observations/ObservationsPage.tsx",
+          "line": 54,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "执行步骤对应应用中的一次函数调用。详细说明请参阅文档。"
+    },
+    {
+      "text": "Attribute data in Langfuse to a user by adding a userId to your traces. See",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/users/UsersPage.tsx",
+          "line": 52,
+          "reason": "tooltip-child"
+        }
+      ],
+      "status": "translated",
+      "translation": "为完整执行记录添加 userId，即可按用户关联查看数据。详见"
+    },
+    {
+      "text": "Edit an existing widget",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/widgets/EditWidgetPage.tsx",
+          "line": 104,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "编辑已有图表组件"
+    },
+    {
+      "text": "Create a new widget",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/widgets/NewWidgetPage.tsx",
+          "line": 133,
+          "reason": "hover-description"
+        },
+        {
+          "file": "features/widgets/NewWidgetPage.tsx",
+          "line": 148,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "创建新图表组件"
+    },
+    {
+      "text": "Manage and create widgets for your dashboard.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/widgets/WidgetsPage.tsx",
+          "line": 25,
+          "reason": "hover-description"
+        }
+      ],
+      "status": "translated",
+      "translation": "管理并创建仪表盘图表组件。"
+    },
+    {
+      "text": "Click to edit",
+      "covered": false,
+      "locations": [
+        {
+          "file": "components/design-system/InlineEditText/InlineEditText.tsx",
+          "line": 93,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "点击编辑"
+    },
+    {
+      "text": "Additional series",
+      "covered": false,
+      "locations": [
+        {
+          "file": "components/design-system/internal/charts/ChartLegend.tsx",
+          "line": 178,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "附加数据序列"
+    },
+    {
+      "text": "Project Not Found",
+      "covered": false,
+      "locations": [
+        {
+          "file": "components/layouts/app-layout/AppLayout.tsx",
+          "line": 115,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "找不到项目"
+    },
+    {
+      "text": "Copy value",
+      "covered": false,
+      "locations": [
+        {
+          "file": "components/table/ValueCell.tsx",
+          "line": 398,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "复制值"
+    },
+    {
+      "text": "<Base64 data URI>",
+      "covered": false,
+      "locations": [
+        {
+          "file": "components/ui/MarkdownViewContent.tsx",
+          "line": 587,
+          "reason": "native-title"
+        }
+      ],
+      "status": "preserved",
+      "reason": "code-example"
+    },
+    {
+      "text": "Render image",
+      "covered": false,
+      "locations": [
+        {
+          "file": "components/ui/ResizableImage.tsx",
+          "line": 175,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "显示图片"
+    },
+    {
+      "text": "Gateway key",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayAnalyticsPage/components/GatewayAnalyticsDashboard/GatewayAnalyticsDashboard.tsx",
+          "line": 65,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "网关密钥"
+    },
+    {
+      "text": "Gateway analytics",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayAnalyticsPage/components/GatewayAnalyticsHeader/GatewayAnalyticsHeader.tsx",
+          "line": 21,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/ai-gateway/components/GatewayAnalyticsPage/GatewayAnalyticsPage.tsx",
+          "line": 47,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/ai-gateway/components/GatewayAnalyticsPage/GatewayAnalyticsPage.tsx",
+          "line": 91,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "网关用量分析"
+    },
+    {
+      "text": "Gateway requests are not recorded",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayAnalyticsPage/GatewayAnalyticsPage.tsx",
+          "line": 94,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "网关请求尚未记录"
+    },
+    {
+      "text": "No gateway keys yet",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayApiKeysPage/components/GatewayApiKeysTable/components/GatewayApiKeysEmptyState/GatewayApiKeysEmptyState.tsx",
+          "line": 9,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "暂无网关密钥"
+    },
+    {
+      "text": "Revoke gateway key",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayApiKeysPage/components/GatewayApiKeysTable/ConnectedGatewayApiKeysTable.tsx",
+          "line": 74,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "撤销网关密钥"
+    },
+    {
+      "text": "Connect to the AI Gateway",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayApiKeysPage/components/UsageInstructionsDialogController/UsageInstructionsDialogController.tsx",
+          "line": 19,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "连接 AI Gateway"
+    },
+    {
+      "text": "Delete provider credential",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayConnectionModelsPage/components/ConnectionSummary/ConnectionSummary.tsx",
+          "line": 52,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/ai-gateway/components/GatewaySetupPage/components/GatewayCredentialsOverview/GatewayCredentialsOverview.tsx",
+          "line": 236,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "删除服务商凭据"
+    },
+    {
+      "text": "Trace and monitor your AI usage by installing the Langfuse AI Gateway in 2 minutes.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayLaunch/GatewayLaunchBanner.tsx",
+          "line": 66,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "安装 Langfuse AI Gateway，即可追踪和监控 AI 用量，约需 2 分钟。"
+    },
+    {
+      "text": "Select an organization",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayLaunch/GatewayLaunchDialog.tsx",
+          "line": 111,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "选择组织"
+    },
+    {
+      "text": "Gateway models",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayModelsPage/components/ConnectedGatewayModelsTable/ConnectedGatewayModelsTable.tsx",
+          "line": 120,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/ai-gateway/components/GatewayModelsPage/GatewayModelsPage.tsx",
+          "line": 96,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "网关模型"
+    },
+    {
+      "text": "Gateway setup",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayNotDeployedNotice/GatewayNotDeployedNotice.tsx",
+          "line": 10,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "网关设置"
+    },
+    {
+      "text": "The AI Gateway isn't deployed",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayNotDeployedNotice/GatewayNotDeployedNotice.tsx",
+          "line": 13,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "尚未部署 AI Gateway"
+    },
+    {
+      "text": "The AI Gateway isn't set up yet",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewayNotSetUpNotice/GatewayNotSetUpNotice.tsx",
+          "line": 16,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "尚未配置 AI Gateway"
+    },
+    {
+      "text": "No provider credentials yet",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewaySetupPage/components/GatewayCredentialsOverview/components/GatewayProvidersTable/components/GatewayProvidersEmptyState/GatewayProvidersEmptyState.tsx",
+          "line": 9,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "暂无服务商凭据"
+    },
+    {
+      "text": "Gateway ingestion",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewaySetupPage/components/GatewayCredentialsOverview/components/IngestionDialogController/components/IngestionDialog/IngestionDialog.tsx",
+          "line": 42,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "网关数据上报"
+    },
+    {
+      "text": "Provider credentials",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewaySetupPage/components/GatewayCredentialsOverview/GatewayCredentialsOverview.tsx",
+          "line": 234,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "服务商凭据"
+    },
+    {
+      "text": "Add a provider credential",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewaySetupPage/components/GatewaySetupGuide/components/CredentialStep.tsx",
+          "line": 50,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "添加服务商凭据"
+    },
+    {
+      "text": "Choose how gateway traffic is recorded",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/ai-gateway/components/GatewaySetupPage/components/GatewaySetupGuide/components/IngestionStep/IngestionStep.tsx",
+          "line": 48,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "选择网关请求的记录方式"
+    },
+    {
+      "text": "Authentication Error",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/auth/AuthErrorPage.tsx",
+          "line": 14,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "身份验证错误"
+    },
+    {
+      "text": "What is this?",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/auth/components/CloudRegionPicker.tsx",
+          "line": 109,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/auth/SignInPage.tsx",
+          "line": 908,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "这是什么？"
+    },
+    {
+      "text": "HF Space Host",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/auth/HfSpacesPage.tsx",
+          "line": 44,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "Hugging Face Space 主机"
+    },
+    {
+      "text": "SSO Sign-in Failed",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/auth/SsoInitiatePage.tsx",
+          "line": 49,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "单点登录失败"
+    },
+    {
+      "text": "Not available",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/auth-credentials/components/ResetPasswordPage.tsx",
+          "line": 181,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "不可用"
+    },
+    {
+      "text": "Webhook not found",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/automations/components/AutomationsPage.tsx",
+          "line": 296,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "找不到 Webhook"
+    },
+    {
+      "text": "Cancel batch export?",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/batch-exports/components/BatchExportsTable/ConnectedBatchExportsTable.tsx",
+          "line": 76,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "取消批量导出？"
+    },
+    {
+      "text": "Delete comment",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/comments/components/CommentConversation.tsx",
+          "line": 201,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "删除评论"
+    },
+    {
+      "text": "Close comments",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/comments/components/CommentOverlayHost.tsx",
+          "line": 190,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "关闭评论"
+    },
+    {
+      "text": "Delete dashboard",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/dashboard/components/DashboardTable/ConnectedDashboardTable.tsx",
+          "line": 157,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "删除仪表盘"
+    },
+    {
+      "text": "The dashboard shown on this project's home page",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/dashboard/components/HomeDashboardSelect.tsx",
+          "line": 76,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "显示在此项目首页的仪表盘"
+    },
+    {
+      "text": "Show this dashboard on Home for everyone in this project",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/dashboard/ProjectHomePage.tsx",
+          "line": 391,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "向此项目的所有成员在首页显示该仪表盘"
+    },
+    {
+      "text": "View trace/observation",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/components/DatasetAggregateTableCell.tsx",
+          "line": 274,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "查看完整执行或执行步骤"
+    },
+    {
+      "text": "Charts",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/components/DatasetAnalytics.tsx",
+          "line": 16,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "图表"
+    },
+    {
+      "text": "Copy item",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/components/DatasetItemDetailPage.tsx",
+          "line": 251,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "复制条目"
+    },
+    {
+      "text": "Attach media",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/components/DatasetItemMediaAttachments.tsx",
+          "line": 202,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "添加媒体附件"
+    },
+    {
+      "text": "Item modified in this version",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/components/DatasetVersionHistoryPanel.tsx",
+          "line": 155,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "此条目在本版本中有修改"
+    },
+    {
+      "text": "Version History",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/datasets/DatasetItemsPage.tsx",
+          "line": 145,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "版本历史"
+    },
+    {
+      "text": "Update default model?",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/components/default-eval-model-setup.tsx",
+          "line": 316,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "更新默认模型？"
+    },
+    {
+      "text": "How concentrated the distribution is (0–1). Not the winner's probability.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/DecisionModelResultView/DecisionModelResultView.tsx",
+          "line": 63,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "表示分布的集中程度（0—1），并非最高概率选项的概率。"
+    },
+    {
+      "text": "Sent to the model",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/DecisionModel/OpenAIDecisionModelStateEditor/OpenAIDecisionModelStateEditor.tsx",
+          "line": 51,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "发送给模型的内容"
+    },
+    {
+      "text": "Create evaluator without a model?",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/EvaluatorSetupFooter/EvaluatorSetupFooter.tsx",
+          "line": 122,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "在未配置模型的情况下创建评估器？"
+    },
+    {
+      "text": "Duration of the test call",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/Testing/components/TestResultPanelView/TestResultPanelView.tsx",
+          "line": 79,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "本次测试调用的耗时"
+    },
+    {
+      "text": "Estimated cost of the test call — also feeds the daily projection when saving",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Evaluators/Testing/components/TestResultPanelView/TestResultPanelView.tsx",
+          "line": 86,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "本次测试调用的估算费用；保存时也用于估算每日费用"
+    },
+    {
+      "text": "Some variables are not mapped correctly",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Rules/EvaluatorMappingRow/EvaluatorMappingRow.tsx",
+          "line": 136,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "部分变量未正确对应数据"
+    },
+    {
+      "text": "Name rule",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/Rules/RuleSetup/components/RuleNameStep.tsx",
+          "line": 23,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "命名规则"
+    },
+    {
+      "text": "Apply JSONPath",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/VariableMapping/components/JsonPathEditor/JsonPathEditor.tsx",
+          "line": 61,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "应用 JSONPath"
+    },
+    {
+      "text": "Not present in every entry of this list",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/components/VariableMapping/components/SampleDataTreeSelector/SampleDataTreeSelector.tsx",
+          "line": 225,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "此列表中并非每个条目都有该字段"
+    },
+    {
+      "text": "View version history",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/pages/EvaluatorSetupPage.tsx",
+          "line": 901,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "查看版本历史"
+    },
+    {
+      "text": "Delete evaluator",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/pages/EvaluatorSetupPage.tsx",
+          "line": 915,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "删除评估器"
+    },
+    {
+      "text": "Delete evaluator?",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/pages/EvaluatorSetupPage.tsx",
+          "line": 1042,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "删除评估器？"
+    },
+    {
+      "text": "Discard unsaved changes?",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/evals/v2/pages/EvaluatorSetupPage.tsx",
+          "line": 1060,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "放弃尚未保存的更改？"
+    },
+    {
+      "text": "Clear baseline",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/experiments/components/ExperimentBaselineControls.tsx",
+          "line": 114,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "清除基准"
+    },
+    {
+      "text": "Previous experiment",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/experiments/components/ExperimentPeekFooter.tsx",
+          "line": 50,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "上一个实验"
+    },
+    {
+      "text": "Next experiment",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/experiments/components/ExperimentPeekFooter.tsx",
+          "line": 62,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "下一个实验"
+    },
+    {
+      "text": "Dataset Selection",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/experiments/components/steps/DatasetStep.tsx",
+          "line": 65,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "选择数据集"
+    },
+    {
+      "text": "Evaluators (Optional)",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/experiments/components/steps/EvaluatorsStep.tsx",
+          "line": 40,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "评估器（可选）"
+    },
+    {
+      "text": "Experiment Run Details",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/experiments/components/steps/ExperimentDetailsStep.tsx",
+          "line": 21,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "实验运行详情"
+    },
+    {
+      "text": "Prompt & Model Configuration",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/experiments/components/steps/PromptModelStep.tsx",
+          "line": 127,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "提示词与模型配置"
+    },
+    {
+      "text": "Improved items",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/experiments/components/table/ExperimentGridSummaryValues.tsx",
+          "line": 180,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "表现改善的条目"
+    },
+    {
+      "text": "Regressed items",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/experiments/components/table/ExperimentGridSummaryValues.tsx",
+          "line": 187,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "表现下降的条目"
+    },
+    {
+      "text": "Delete conversation",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/in-app-agent/components/InAppAgentWindowHost.tsx",
+          "line": 94,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "删除对话"
+    },
+    {
+      "text": "Clone model",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/models/components/CloneModelButton.tsx",
+          "line": 26,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "复制模型配置"
+    },
+    {
+      "text": "Delete model?",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/models/components/DeleteModelButton.tsx",
+          "line": 38,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/models/ModelDefinitionsTable/ConnectedModelDefinitionsTable.tsx",
+          "line": 138,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "删除模型？"
+    },
+    {
+      "text": "Delete model",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/models/components/DeleteModelButton.tsx",
+          "line": 60,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "删除模型"
+    },
+    {
+      "text": "Edit model",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/models/components/EditModelButton.tsx",
+          "line": 26,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "编辑模型"
+    },
+    {
+      "text": "Delete alert",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/monitors/components/DeleteMonitorButton.tsx",
+          "line": 32,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/monitors/components/DeleteMonitorButton.tsx",
+          "line": 42,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "删除告警"
+    },
+    {
+      "text": "Not found",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/monitors/components/MonitorPagePermissions.tsx",
+          "line": 25,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/topics/TopicsPage.tsx",
+          "line": 88,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "未找到"
+    },
+    {
+      "text": "Alert not found",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/monitors/pages/EditMonitorPage.tsx",
+          "line": 112,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "找不到告警"
+    },
+    {
+      "text": "Alert could not be edited",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/monitors/pages/EditMonitorPage.tsx",
+          "line": 119,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "无法编辑告警"
+    },
+    {
+      "text": "Copy error ID",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/notifications/ErrorNotification.tsx",
+          "line": 99,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "复制错误 ID"
+    },
+    {
+      "text": "No access",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/organizations/components/AIFeatureSwitch.tsx",
+          "line": 161,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/organizations/components/AIFeatureSwitch.tsx",
+          "line": 190,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/organizations/components/RenameOrganization.tsx",
+          "line": 103,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/projects/components/ConfigureRetention.tsx",
+          "line": 121,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/projects/components/RenameProject.tsx",
+          "line": 101,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "无访问权限"
+    },
+    {
+      "text": "Data Retention",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/projects/components/ConfigureRetention.tsx",
+          "line": 68,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "数据保留期限"
+    },
+    {
+      "text": "Duplicate folder including prompts",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/prompts/components/DuplicateFolderButton.tsx",
+          "line": 115,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "复制文件夹及其中的提示词"
+    },
+    {
+      "text": "Duplicate prompt",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/prompts/components/DuplicatePromptButton.tsx",
+          "line": 209,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "复制提示词"
+    },
+    {
+      "text": ".env",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/public-api/components/ApiKeyDetailContent.tsx",
+          "line": 54,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/public-api/components/ApiKeyList.tsx",
+          "line": 74,
+          "reason": "native-title"
+        }
+      ],
+      "status": "preserved",
+      "reason": "filename"
+    },
+    {
+      "text": "Add or view score comment",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/scores/components/AnnotationScoreRow.tsx",
+          "line": 267,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "添加或查看评分评论"
+    },
+    {
+      "text": "Score actions",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/scores/components/AnnotationScoreRow.tsx",
+          "line": 581,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "评分操作"
+    },
+    {
+      "text": "Add new category",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/scores/components/CategoricalScoreInput.tsx",
+          "line": 155,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "新增类别"
+    },
+    {
+      "text": "Back (Esc)",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/search-bar/components/SearchBarAiPrompt.tsx",
+          "line": 257,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "返回（Esc）"
+    },
+    {
+      "text": "Press Enter to generate",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/search-bar/components/SearchBarAiPrompt.tsx",
+          "line": 315,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "按 Enter 生成"
+    },
+    {
+      "text": "Generate filters (Enter)",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/search-bar/components/SearchBarAiPrompt.tsx",
+          "line": 326,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "生成筛选条件（Enter）"
+    },
+    {
+      "text": "Session not found",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/sessions/SessionPages.tsx",
+          "line": 588,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/sessions/SessionPages.tsx",
+          "line": 1089,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "找不到对话"
+    },
+    {
+      "text": "Download session as JSON",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/sessions/SessionPages.tsx",
+          "line": 644,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "将对话下载为 JSON"
+    },
+    {
+      "text": "Failed to load session",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/sessions/SessionPages.tsx",
+          "line": 1101,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "无法加载对话"
+    },
+    {
+      "text": "Refresh metrics",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/skills/components/SkillAnalytics.tsx",
+          "line": 88,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "刷新指标"
+    },
+    {
+      "text": "Add skill label",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/skills/components/SkillMetadataSelect.tsx",
+          "line": 175,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "添加技能标签"
+    },
+    {
+      "text": "Compare skill versions",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/skills/components/SkillVersionComparisonController.tsx",
+          "line": 126,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "比较技能版本"
+    },
+    {
+      "text": "Compare local draft",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/skills/components/SkillVersionHistory.tsx",
+          "line": 124,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "比较本地草稿"
+    },
+    {
+      "text": "Zoom in",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/trace-graph-view/components/ElkGraphRenderer.tsx",
+          "line": 569,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "放大"
+    },
+    {
+      "text": "Zoom out",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/trace-graph-view/components/ElkGraphRenderer.tsx",
+          "line": 578,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "缩小"
+    },
+    {
+      "text": "Fit to view",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/trace-graph-view/components/ElkGraphRenderer.tsx",
+          "line": 587,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "缩放至完整视图"
+    },
+    {
+      "text": "Copy full value",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/AdvancedJsonViewer/lazy/react/LazyJsonRow.tsx",
+          "line": 143,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "复制完整值"
+    },
+    {
+      "text": "Corrected output",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/IOPreview/components/CorrectedOutputField.tsx",
+          "line": 322,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "修正后的输出"
+    },
+    {
+      "text": "Additional Input",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/IOPreview/IOPreviewPretty.tsx",
+          "line": 1306,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/traces/components/IOPreview/IOPreviewPretty.tsx",
+          "line": 1327,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "附加输入"
+    },
+    {
+      "text": "Media",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/IOPreview/IOPreviewPretty.tsx",
+          "line": 1335,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "媒体"
+    },
+    {
+      "text": "View model details",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/ObservationDetailView/components/ModelBadge.tsx",
+          "line": 27,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "查看模型详情"
+    },
+    {
+      "text": "Create model definition",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/ObservationDetailView/components/ModelBadge.tsx",
+          "line": 56,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "创建模型定义"
+    },
+    {
+      "text": "Show detail panel",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/TraceLayoutDesktop.tsx",
+          "line": 678,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "显示详情面板"
+    },
+    {
+      "text": "Observation not found",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/TracePanelDetail.tsx",
+          "line": 90,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "找不到执行步骤"
+    },
+    {
+      "text": "Could not load observation",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/components/TracePanelDetail.tsx",
+          "line": 97,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "无法加载执行步骤"
+    },
+    {
+      "text": "Trace not found",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracePage.tsx",
+          "line": 44,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/traces/TraceRedirectPage.tsx",
+          "line": 23,
+          "reason": "native-title"
+        },
+        {
+          "file": "features/traces/TraceRedirectPage.tsx",
+          "line": 36,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "找不到完整执行记录"
+    },
+    {
+      "text": "Back to Langfuse",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracePage.tsx",
+          "line": 68,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "返回 Langfuse"
+    },
+    {
+      "text": "Sign in to Langfuse",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/traces/TracePage.tsx",
+          "line": 80,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "登录 Langfuse"
+    },
+    {
+      "text": "New data in ~15 min",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/v4-migration/V4MigrationDelayBadge.tsx",
+          "line": 173,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "约 15 分钟后有新数据"
+    },
+    {
+      "text": "Action required",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/v4-migration/V4MigrationDelayBadge.tsx",
+          "line": 229,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "需要处理"
+    },
+    {
+      "text": "Upgrade is handled by your integration partner. Click on badge to learn more.",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/v4-migration/V4MigrationProjectChip.tsx",
+          "line": 33,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "升级由集成服务商负责。点击标记查看详情。"
+    },
+    {
+      "text": "Upgrade is handled by your integration partner",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/v4-migration/V4MigrationStatusPage.tsx",
+          "line": 104,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "升级由集成服务商负责"
+    },
+    {
+      "text": "Sort by this column",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/v4-migration/V4MigrationStatusPage.tsx",
+          "line": 154,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "按此列排序"
+    },
+    {
+      "text": "Maintained by Langfuse — editing creates your own copy",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/widgets/components/DashboardWidget.tsx",
+          "line": 645,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "由 Langfuse 维护；编辑时会创建您自己的副本"
+    },
+    {
+      "text": "Delete widget",
+      "covered": false,
+      "locations": [
+        {
+          "file": "features/widgets/components/WidgetTable/ConnectedDashboardWidgetTable.tsx",
+          "line": 63,
+          "reason": "native-title"
+        }
+      ],
+      "status": "translated",
+      "translation": "删除图表组件"
+    }
+  ],
+  "supportedKeys": [
+    "Export",
+    "Select Tool Call ID",
+    "Adds a placeholder to inject message pairs, e.g. a message history (with \"role\", \"content\" pairs) when compiling the message in the SDK.",
+    "reset date",
+    "Select time range",
+    "Syntax highlighting is disabled for values over 10,000 characters.",
+    "Pretty-print JSON",
+    "Click to edit",
+    "Additional series",
+    "Drag to reorder. With a keyboard: Space to pick up or drop, arrow keys to move, Escape to cancel.",
+    "Copy to clipboard",
+    "Project Not Found",
+    "Open in new tab",
+    "Provider",
+    "Model name",
+    "Temperature",
+    "Output token limit",
+    "Top P",
+    "Max. Reasoning Tokens",
+    "Additional options to pass to the invocation. Please check your provider's API reference for supported values.",
+    "Control sending the additional options parameter",
+    "Dismiss",
+    "Get Started with Annotation Queues",
+    "Get started with evaluations",
+    "Get Started with LLM-as-a-Judge Evaluations",
+    "Add items to your dataset",
+    "Upload CSV",
+    "Add Manually",
+    "Add via Code",
+    "Select Observations",
+    "Get Started with Datasets & Experiments",
+    "Get Started with Prompt Management",
+    "Get Started with Scores",
+    "You aren't using sessions yet",
+    "You aren't tracking users yet",
+    "Organizations",
+    "Projects",
+    "Danger Zone",
+    "Row height",
+    "Show filters",
+    "active",
+    "more",
+    "Hide filters",
+    "Filter with AI",
+    "Filter options",
+    "Nothing to exclude yet — uncheck a value to exclude it, or select values first.",
+    "Environment",
+    "We convert natural language into deterministic filters which you can adjust afterwards",
+    "Drag and drop to reorder columns",
+    "Show/hide columns",
+    "Approximate count over the active column filters and time range only. It excludes full-text search, score, and comment filters, so it can be noticeably higher than the number of matching rows.",
+    "Approximate number of matching rows for the active filters and time range, estimated with ClickHouse's HyperLogLog (typically within a few percent of the true count).",
+    "Refresh",
+    "Clear",
+    "filter",
+    "More",
+    "Delete",
+    "Saving table view presets is currently in beta. Click here to provide feedback!",
+    "Reflects your current table settings without applying any saved custom table views",
+    "Actions",
+    "Copy value",
+    "Render image",
+    "Show details",
+    "Hide details",
+    "Toggle Sidebar",
+    "Display Name",
+    "Sign Out of All Sessions",
+    "Email",
+    "Password",
+    "User",
+    "Gateway key",
+    "Gateway analytics",
+    "Gateway requests are not recorded",
+    "Gateway key created",
+    "Create gateway key",
+    "About gateway key metadata",
+    "Attached to every trace from this key, so you can filter and group by it.",
+    "No gateway keys yet",
+    "Revoke gateway key",
+    "Connect to the AI Gateway",
+    "Gateway keys",
+    "Delete provider credential",
+    "Trace and monitor your AI usage by installing the Langfuse AI Gateway in 2 minutes.",
+    "Select an organization",
+    "Gateway models",
+    "Models",
+    "Gateway setup",
+    "The AI Gateway isn't deployed",
+    "The AI Gateway isn't set up yet",
+    "No provider credentials yet",
+    "Gateway ingestion",
+    "Provider credentials",
+    "Add a provider credential",
+    "Choose how gateway traffic is recorded",
+    "All queue items processed",
+    "Previous item",
+    "Skip to next item",
+    "Link to the source trace, observation or session based on which this item was added",
+    "Remove score configs from queue?",
+    "Score configs define the fields annotators see. Adding or removing fields applies when items are reopened, including completed items. Historical scores and completion status stay unchanged. Editing a score config changes its project-wide definition for future scoring wherever it is used.",
+    "Remove from queue",
+    "Remove from annotation queue",
+    "Annotation queues are used to manage scoring workflows for your LLM projects. See docs to learn more.",
+    "Authentication Error",
+    "What is this?",
+    "HF Space Host",
+    "SSO Sign-in Failed",
+    "Not available",
+    "Automations",
+    "Event Actions",
+    "Webhook not found",
+    "Please confirm",
+    "Batch Actions",
+    "About total estimated LLM costs",
+    "Sum of the available LLM cost estimates for this run.",
+    "Exports",
+    "Cancel batch export?",
+    "Configuration",
+    "Status",
+    "For further information see",
+    "Clear search",
+    "Delete comment",
+    "Close comments",
+    "Scores",
+    "Clone dashboard",
+    "Delete dashboard",
+    "The dashboard shown on this project's home page",
+    "Model latencies",
+    "Model costs",
+    "Calculated multiplying the number of tokens with cost per token for each model.",
+    "Model Usage",
+    "Scores Analytics",
+    "Aggregate of up to 10,000 scores",
+    "Traces",
+    "User consumption",
+    "Saving...",
+    "Manage and create dashboards for your project.",
+    "Create a new dashboard for your project",
+    "Show this dashboard on Home for everyone in this project",
+    "Edit this dashboard in Dashboards",
+    "View trace/observation",
+    "Charts",
+    "Copy item",
+    "Attach media",
+    "Link to the source trace based on which this item was added",
+    "Item modified in this version",
+    "Duplicate dataset?",
+    "When a single csv column is mapped to a dataset item field, wrap its value in an object instead of using the raw value. Example:",
+    "instead of",
+    "Compare your experiments side by side",
+    "Experiments",
+    "Description",
+    "Metadata",
+    "Compare your dataset runs side by side",
+    "Version History",
+    "Datasets in Langfuse are a collection of inputs (and expected outputs) of an LLM application. They are used to benchmark new releases before deployment to production. See docs to learn more.",
+    "MCP & CLI",
+    "Only user-managed templates can be edited",
+    "Update default model?",
+    "Requires project-level evaluation model",
+    "Configure default model",
+    "Upgrade now",
+    "An evaluator's target data may only be configured at creation.",
+    "This evaluator has already run on existing",
+    "once. Set up a new evaluator to re-run on existing",
+    "The evaluator has been used in the past but is currently paused. It will not run against outputs created in this dataset run. You can reactivate it if you wish",
+    "Evaluation Prompt",
+    "Variable in the template to be replaced with the mapped data.",
+    "Object",
+    "Object Name",
+    "Object Field",
+    "JsonPath",
+    "Configure a default evaluation model for your project.",
+    "Configure a langfuse managed or custom evaluator to evaluate incoming traces.",
+    "View all langfuse managed and custom evaluators.",
+    "About options",
+    "One label per option. A short description sharpens the boundary between options; add an “other” option when the list may not cover every input.",
+    "About question types",
+    "Choice picks one of a fixed set of labels. Score rates along ordered levels you describe. Yes/no returns the probability that a statement is true. Pick the one your code can act on directly.",
+    "About score names",
+    "Each question writes its own score under this name. Keep it stable: renaming starts a new score series.",
+    "About questions",
+    "Each question is one snap judgment about the state and writes one score. All questions are answered in a single model call, so a second or tenth question costs only its own tokens.",
+    "About extra questions",
+    "Answered together in one call; extra questions add only their own tokens.",
+    "How concentrated the distribution is (0–1). Not the winner's probability.",
+    "Sent to the model",
+    "Ask for one snap judgment. This text is sent as written. The model reads the input object, so the question does not insert fields.",
+    "Ask for one snap judgment a knowledgeable person makes in a second. Name the state field the question is about in backticks, for example “Does `question` request a refund?”. The model reads the state as a JSON object, so the question does not repeat the data.",
+    "About levels",
+    "Each level is one point on the scale. The model judges every level on its own against the state and returns a position between them, so describe situations (“broken, but a workaround exists”), not degrees (“moderately severe”). Two to ten levels; drag to reorder.",
+    "About the score",
+    "The score is the probability-weighted average of the level numbers, so it can be a decimal from 0 to",
+    "About evaluation types",
+    "Use custom code for deterministic checks like exact matches, regex, or schema validation. Use an LLM when the check needs judgment, such as rating helpfulness, tone, or answer quality. Use a decision model for a fast, cheap label with calibrated probabilities when the possible answers are known upfront.",
+    "Sampling is set by the selected rule",
+    "The sampling rate is inherited from the selected rule. You can edit it directly in the rule.",
+    "How estimated LLM costs are calculated",
+    "How estimated backfill costs are calculated",
+    "It remains available for batch evaluations and prompt experiments. Set up incoming observations later.",
+    "Drag to reorder message",
+    "Prompt message settings",
+    "Define evaluation",
+    "Name evaluator",
+    "About evaluator names",
+    "The evaluator name is also used as the score name for the scores it produces.",
+    "Create evaluator without a model?",
+    "This evaluator was updated",
+    "score output",
+    "Edit category",
+    "Add category",
+    "Set project default model",
+    "Filter observations",
+    "Matching observations",
+    "Duration of the test call",
+    "Estimated cost of the test call — also feeds the daily projection when saving",
+    "Test the evaluator",
+    "About cost estimation",
+    "About sampling rate",
+    "The percentage of matching observations that will be evaluated. Lower sampling rates reduce evaluation volume and cost.",
+    "Sum of the available weekly LLM cost estimates for attached evaluators.",
+    "Some variables are not mapped correctly",
+    "Add a rule name before saving.",
+    "Attach evaluators",
+    "Configure rule scope",
+    "Name rule",
+    "Delete evaluation rules?",
+    "Apply JSONPath",
+    "Cancel",
+    "Not present in every entry of this list",
+    "View version history",
+    "Delete evaluator",
+    "Delete evaluator?",
+    "Discard unsaved changes?",
+    "Create reusable evaluator definitions and test them before activation.",
+    "Rules define which incoming observations reusable evaluators run on.",
+    "Add metadata to traces to track additional information.",
+    "You can differentiate the importance of observations with the level attribute to control the verbosity of your traces and highlight errors and warnings.",
+    "Use a statusMessage to e.g. provide additional information on a status such as level=ERROR.",
+    "Link to prompt version in Langfuse prompt management.",
+    "Track changes via the version tag.",
+    "Track changes to your application via the release tag.",
+    "Observation types classify the work captured within a trace, such as generations, spans, tools, chains, and agents.",
+    "An observation captures a single function call in an application. This view uses the new ClickHouse events table.",
+    "Edit remote trigger settings",
+    "Clear baseline",
+    "Runs on another dataset scored different items, so their values are not comparable.",
+    "Previous experiment",
+    "Next experiment",
+    "Dataset Selection",
+    "Evaluators (Optional)",
+    "Experiment Run Details",
+    "Prompt & Model Configuration",
+    "Review & Run",
+    "This run name is auto-generated from the experiment name and can be used to fetch the resulting experiment run via the public API.",
+    "Changed compared to baseline",
+    "Improved items",
+    "Regressed items",
+    "Average duration of the root span per experiment item.",
+    "Comparing one experiment's score against another's is not something the items query can express, so this narrows the items loaded on the current page. Page through to check the rest of the run.",
+    "Test external media object",
+    "Save the integration before running the validation.",
+    "Delete external media storage?",
+    "Make a change before saving.",
+    "Feature Previews",
+    "Clear all filters",
+    "Key",
+    "Value",
+    "Start new conversation",
+    "Conversation history",
+    "Delete conversation",
+    "Clone model",
+    "Delete model?",
+    "Delete model",
+    "Edit model",
+    "Model Definitions",
+    "Price breakdown",
+    "Usage Type",
+    "Price",
+    "Remove price",
+    "Model Parameters",
+    "Model configuration and pricing details",
+    "Delete alert",
+    "Metric Definition",
+    "Alert Conditions",
+    "Notifications",
+    "Discard this alert?",
+    "Not found",
+    "Catch issues before they impact your users",
+    "Edit",
+    "Alert not found",
+    "Alert could not be edited",
+    "Alerts notify your team and automated workflows of sudden cost spikes, quality drops, latency changes, and other important changes on the system.",
+    "Navigate up",
+    "Navigate down",
+    "Personal Notifications",
+    "Project Notifications",
+    "Edit channel",
+    "Delete channel",
+    "Copy error ID",
+    "Getting your workspace ready",
+    "Finishing setup",
+    "Download as CSV",
+    "AI Features",
+    "No access",
+    "Delete Organization",
+    "Receives AI Gateway traces",
+    "No access to this organization",
+    "Organization not found",
+    "Organizations help you manage access to projects. Each organization can have multiple projects and team members with different roles.",
+    "Organization Name",
+    "Debug Information",
+    "Organization LLM Connections",
+    "About organization connections",
+    "Connections are available to all current and future projects. Project connections with the same provider take precedence.",
+    "No organization connections",
+    "Usage",
+    "Organization Members",
+    "Membership Invites",
+    "Send PagerDuty test event",
+    "Toggle Input/Output JSON",
+    "Copy output",
+    "Add as assistant message",
+    "Delete placeholder",
+    "New split window",
+    "Remove window",
+    "Delete variable",
+    "Reset playground state",
+    "Save as prompt",
+    "Prompts from the playground can only be saved to 'chat' prompts as they include multiple system/user messages.",
+    "A sandbox to test and iterate your prompts across multiple windows",
+    "Reset PostHog integration?",
+    "Data Retention",
+    "Delete Project",
+    "Project cannot be deleted",
+    "Host Name",
+    "Project Name",
+    "Transfer Project",
+    "Project Members",
+    "Integrations",
+    "Duplicate folder including prompts",
+    "Duplicate prompt",
+    "Manage and version your prompts in Langfuse. Edit and update them via the UI and SDK. Retrieve the production version via the SDKs. Learn more in the docs.",
+    "Review Prompt Changes",
+    "You can use this prompt within your application through the Langfuse SDKs and integrations. Refer to the documentation for more information.",
+    "Text Prompt (resolved)",
+    "Text Prompt",
+    "Prompt",
+    "Config",
+    "Compare with selected prompt",
+    "Protected Labels",
+    "This is calculated based on the selected date range, not the full usage history.",
+    "Secret Key",
+    "Public Key",
+    "Using with MCP",
+    "API Keys",
+    "Delete API key",
+    "Edit API key name",
+    "Organization connections",
+    "Organization connections are inherited by this project. Project connections with the same provider name take precedence.",
+    "No project connections",
+    "Project connections",
+    "Delete LLM Connection",
+    "This project connection overrides the organization secret with the same name.",
+    "Cancel invitation",
+    "The organization role is the default role for this user across the organization and its projects.",
+    "The project role applies to this project and overrides the default organization role.",
+    "View permissions",
+    "Clear selection",
+    "Score Configs",
+    "Annotate",
+    "Add or view score comment",
+    "Score actions",
+    "Add new category",
+    "A score is an evaluation of a trace or observation. It can be created from user feedback, model-based evaluations, or manual review. See docs to learn more.",
+    "A scores is an evaluation of a traces or observations. It can be created from user feedback, model-based evaluations, or manual review. See docs to learn more.",
+    "Add metadata to scores to track additional information.",
+    "The user ID associated with the trace.",
+    "Categorical and text scores have no numeric value, so they're excluded from Value.",
+    "Back (Esc)",
+    "Press Enter to generate",
+    "Generate filters (Enter)",
+    "Some messages may be missing because the observation limit was reached.",
+    "Search session",
+    "Remove metadata JSONPath",
+    "session duration",
+    "Edit Metadata",
+    "Save as new view",
+    "No filters",
+    "Save as view",
+    "Edit filters",
+    "Clear filters",
+    "Manage Views",
+    "Apply custom filter",
+    "Customize session view",
+    "Apply filters with no matching observations?",
+    "Copy session ID",
+    "Session not found",
+    "Download session as JSON",
+    "Failed to load session",
+    "A session is a collection of related traces, such as a conversation or thread. To begin, add a sessionId to the trace. See",
+    "docs",
+    "to learn more.",
+    "The number of traces in the session.",
+    "Create a new organization. This will be used to manage your projects and teams.",
+    "New Organization",
+    "New Project",
+    "Time to log your first trace, it only takes a minute",
+    "Import skills",
+    "Install in your project",
+    "Refresh metrics",
+    "Discard draft?",
+    "The skill name and description are parsed from the frontmatter in SKILL.md.",
+    "Edit SKILL.md to change the skill name.",
+    "Drop a file here to move it to the root",
+    "New file",
+    "New folder",
+    "Add skill label",
+    "You can still create and use skills in the legacy view.",
+    "Create, version, and distribute reusable agent skills from one place.",
+    "Delete skill",
+    "You do not have write access",
+    "Get Started with Skills",
+    "Compare skill versions",
+    "Compare local draft",
+    "Private channels are only listed for the person who connected Slack to this project, and only those they are a member of. Reconnect Slack to list your own private channels.",
+    "Disconnect Slack?",
+    "Confirm Severity 1 (Critical Business Impact)",
+    "Add tag",
+    "Light mode",
+    "Dark mode",
+    "System mode",
+    "Analyze traces",
+    "Configure Topics",
+    "Facets",
+    "A facet is one question Topics answers for every trace, such as what the user asked for, how the run ended, or which issues came up. Answers to the same facet are clustered into topics.",
+    "Trace readiness",
+    "Manual processing",
+    "Choose facets",
+    "Reuse compatible results for the same facet version and models. Source changes are not checked. Turn off to generate fresh results.",
+    "No runs yet",
+    "Couldn’t load run history",
+    "Zoom in",
+    "Zoom out",
+    "Fit to view",
+    "Copy full value",
+    "Provided at ingestion",
+    "Calculated ·",
+    "Tier Pricing",
+    "Calculated from model pricing",
+    "Aggregate across",
+    "Copy ID",
+    "Delete trace?",
+    "Attributes",
+    "Model parameters",
+    "Corrected output",
+    "Previous match (Shift+Enter)",
+    "Next match (Enter)",
+    "Input",
+    "Output",
+    "Tools",
+    "Skills",
+    "Additional Input",
+    "Media",
+    "View model details",
+    "Create model definition",
+    "Total tokens",
+    "Show detail panel",
+    "Observation not found",
+    "Could not load observation",
+    "View Options",
+    "Trace transcript",
+    "Transcript",
+    "Trace not found",
+    "Back to Langfuse",
+    "Sign in to Langfuse",
+    "A trace represents a single function/api invocation. Traces contain observations. See [docs](https://langfuse.com/docs/observability/data-model) to learn more.",
+    "A trace represents a single function/api invocation. Traces contain observations. See",
+    "1. Get API keys",
+    "2. Add tracing to your application",
+    "Setup tracing to track and analyze your LLM calls. You can create API keys and integrate Langfuse with your application.",
+    "Group traces with tags. Read more about implementing tags",
+    "here",
+    "Add metadata to traces to track additional information. Read more about adding metadata",
+    "Group traces into sessions to track longer conversations/workflows. Read more about sessions",
+    "Add",
+    "to traces to track users. Read more about user tracking",
+    "The number of observations in the trace.",
+    "Track changes via the version tag. Read more about versions",
+    "Track changes to your application via the release tag. Read more about the release tag",
+    "An observation captures a single function call in an application. See docs to learn more.",
+    "Attribute data in Langfuse to a user by adding a userId to your traces. See",
+    "The unique identifier for the user that was logged in Langfuse. See docs for more details on how to set this up.",
+    "The earliest trace recorded for this user.",
+    "The latest trace recorded for this user.",
+    "Total number of events for the user, includes traces and observations. See data model for more details.",
+    "Total number of tokens used for the user across all generations.",
+    "Total cost for the user across all generations.",
+    "Update SDK",
+    "Update OTel Instrumentation",
+    "Upgrade Instrumentation",
+    "Detected V4-compatible instrumentation",
+    "Update Evals",
+    "Update Experiments",
+    "Migrate APIs",
+    "Migrate Integrations",
+    "Copy prompt",
+    "New data in ~15 min",
+    "Action required",
+    "Upgrade is handled by your integration partner. Click on badge to learn more.",
+    "Upgrade is handled by your integration partner",
+    "Sort by this column",
+    "Remove header",
+    "Delete Callout Endpoint",
+    "Maintained by Langfuse — editing creates your own copy",
+    "Delete widget",
+    "Edit an existing widget",
+    "Create a new widget",
+    "Manage and create widgets for your dashboard."
+  ],
+  "sourceInventory": {
+    "initialKeys": 228,
+    "expandedHelpKeys": 284,
+    "allNativeTitleFilesKeys": 526
+  }
+}
